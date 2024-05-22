@@ -1,0 +1,14 @@
+/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles/SalaryManageSystem.dir
+/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles/edit_cache.dir
+/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles/rebuild_cache.dir
+/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles/list_install_components.dir
+/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles/install.dir
+/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles/install/local.dir
+/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles/install/strip.dir
+/Users/shajiejie/CLionProjects/SalaryManageSystem/build/OpenXLSX/CMakeFiles/OpenXLSX.dir
+/Users/shajiejie/CLionProjects/SalaryManageSystem/build/OpenXLSX/CMakeFiles/edit_cache.dir
+/Users/shajiejie/CLionProjects/SalaryManageSystem/build/OpenXLSX/CMakeFiles/rebuild_cache.dir
+/Users/shajiejie/CLionProjects/SalaryManageSystem/build/OpenXLSX/CMakeFiles/list_install_components.dir
+/Users/shajiejie/CLionProjects/SalaryManageSystem/build/OpenXLSX/CMakeFiles/install.dir
+/Users/shajiejie/CLionProjects/SalaryManageSystem/build/OpenXLSX/CMakeFiles/install/local.dir
+/Users/shajiejie/CLionProjects/SalaryManageSystem/build/OpenXLSX/CMakeFiles/install/strip.dir
