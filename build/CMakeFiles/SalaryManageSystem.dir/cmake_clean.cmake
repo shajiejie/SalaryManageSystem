@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/SalaryManageSystem.dir/src/SalaryManageSystemNew.cpp.o"
-  "CMakeFiles/SalaryManageSystem.dir/src/SalaryManageSystemNew.cpp.o.d"
+  "CMakeFiles/SalaryManageSystem.dir/src/file_action.cpp.o"
+  "CMakeFiles/SalaryManageSystem.dir/src/file_action.cpp.o.d"
   "output/SalaryManageSystem"
   "output/SalaryManageSystem.pdb"
 )

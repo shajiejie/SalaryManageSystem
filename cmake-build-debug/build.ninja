@@ -49,9 +49,9 @@ cmake_ninja_workdir = /Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-bu
 
 build cmake_object_order_depends_target_SalaryManageSystem: phony || cmake_object_order_depends_target_OpenXLSX
 
-build CMakeFiles/SalaryManageSystem.dir/src/test.cpp.o: CXX_COMPILER__SalaryManageSystem_unscanned_Debug /Users/shajiejie/CLionProjects/SalaryManageSystem/src/test.cpp || cmake_object_order_depends_target_SalaryManageSystem
+build CMakeFiles/SalaryManageSystem.dir/src/file_action.cpp.o: CXX_COMPILER__SalaryManageSystem_unscanned_Debug /Users/shajiejie/CLionProjects/SalaryManageSystem/src/file_action.cpp || cmake_object_order_depends_target_SalaryManageSystem
   DEFINES = -DOPENXLSX_STATIC_DEFINE
-  DEP_FILE = CMakeFiles/SalaryManageSystem.dir/src/test.cpp.o.d
+  DEP_FILE = CMakeFiles/SalaryManageSystem.dir/src/file_action.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   INCLUDES = -I/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX -I/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/headers -I/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/OpenXLSX
   OBJECT_DIR = CMakeFiles/SalaryManageSystem.dir
@@ -65,7 +65,7 @@ build CMakeFiles/SalaryManageSystem.dir/src/test.cpp.o: CXX_COMPILER__SalaryMana
 #############################################
 # Link the executable output/SalaryManageSystem
 
-build output/SalaryManageSystem: CXX_EXECUTABLE_LINKER__SalaryManageSystem_Debug CMakeFiles/SalaryManageSystem.dir/src/test.cpp.o | output/libOpenXLSXd.a || output/libOpenXLSXd.a
+build output/SalaryManageSystem: CXX_EXECUTABLE_LINKER__SalaryManageSystem_Debug CMakeFiles/SalaryManageSystem.dir/src/file_action.cpp.o | output/libOpenXLSXd.a || output/libOpenXLSXd.a
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
   LINK_LIBRARIES = output/libOpenXLSXd.a
   OBJECT_DIR = CMakeFiles/SalaryManageSystem.dir

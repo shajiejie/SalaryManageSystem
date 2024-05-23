@@ -187,29 +187,29 @@ OpenXLSX/fast:
 	$(MAKE) $(MAKESILENT) -f OpenXLSX/CMakeFiles/OpenXLSX.dir/build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/build
 .PHONY : OpenXLSX/fast
 
-src/SalaryManageSystemNew.o: src/SalaryManageSystemNew.cpp.o
-.PHONY : src/SalaryManageSystemNew.o
+src/file_action.o: src/file_action.cpp.o
+.PHONY : src/file_action.o
 
 # target to build an object file
-src/SalaryManageSystemNew.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SalaryManageSystem.dir/build.make CMakeFiles/SalaryManageSystem.dir/src/SalaryManageSystemNew.cpp.o
-.PHONY : src/SalaryManageSystemNew.cpp.o
+src/file_action.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SalaryManageSystem.dir/build.make CMakeFiles/SalaryManageSystem.dir/src/file_action.cpp.o
+.PHONY : src/file_action.cpp.o
 
-src/SalaryManageSystemNew.i: src/SalaryManageSystemNew.cpp.i
-.PHONY : src/SalaryManageSystemNew.i
+src/file_action.i: src/file_action.cpp.i
+.PHONY : src/file_action.i
 
 # target to preprocess a source file
-src/SalaryManageSystemNew.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SalaryManageSystem.dir/build.make CMakeFiles/SalaryManageSystem.dir/src/SalaryManageSystemNew.cpp.i
-.PHONY : src/SalaryManageSystemNew.cpp.i
+src/file_action.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SalaryManageSystem.dir/build.make CMakeFiles/SalaryManageSystem.dir/src/file_action.cpp.i
+.PHONY : src/file_action.cpp.i
 
-src/SalaryManageSystemNew.s: src/SalaryManageSystemNew.cpp.s
-.PHONY : src/SalaryManageSystemNew.s
+src/file_action.s: src/file_action.cpp.s
+.PHONY : src/file_action.s
 
 # target to generate assembly for a file
-src/SalaryManageSystemNew.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SalaryManageSystem.dir/build.make CMakeFiles/SalaryManageSystem.dir/src/SalaryManageSystemNew.cpp.s
-.PHONY : src/SalaryManageSystemNew.cpp.s
+src/file_action.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SalaryManageSystem.dir/build.make CMakeFiles/SalaryManageSystem.dir/src/file_action.cpp.s
+.PHONY : src/file_action.cpp.s
 
 # Help Target
 help:
@@ -225,9 +225,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... OpenXLSX"
 	@echo "... SalaryManageSystem"
-	@echo "... src/SalaryManageSystemNew.o"
-	@echo "... src/SalaryManageSystemNew.i"
-	@echo "... src/SalaryManageSystemNew.s"
+	@echo "... src/file_action.o"
+	@echo "... src/file_action.i"
+	@echo "... src/file_action.s"
 .PHONY : help
 
 

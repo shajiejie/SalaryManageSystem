@@ -127,7 +127,8 @@ if (${OPENXLSX_LIBRARY_TYPE} STREQUAL "STATIC")
     add_library(OpenXLSX STATIC ""
             ../../src/main.cpp
             ../../src/main.cpp
-            ../src/SalaryManageSystemNew.cpp)
+            ../src/SalaryManageSystemNew.cpp
+    )
     add_library(OpenXLSX::OpenXLSX ALIAS OpenXLSX)
     target_sources(OpenXLSX PRIVATE ${OPENXLSX_SOURCES})
     target_include_directories(OpenXLSX
@@ -153,7 +154,10 @@ if (${OPENXLSX_LIBRARY_TYPE} STREQUAL "SHARED")
     add_library(OpenXLSX SHARED ""
             ../../src/main.cpp
             ../src/SalaryManageSystemNew.cpp
-            ../src/test.cpp)
+            ../src/file_action.cpp
+            ../src/typecheck.h
+            ../test/type_check.cpp
+    )
     add_library(OpenXLSX::OpenXLSX ALIAS OpenXLSX)
     target_sources(OpenXLSX PRIVATE ${OPENXLSX_SOURCES})
     target_include_directories(OpenXLSX
