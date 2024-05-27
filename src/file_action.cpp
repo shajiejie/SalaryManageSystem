@@ -1,59 +1,16 @@
-//
-// Created by 沙杰杰 on 2024/5/22.
-//
-#include "stdio.h"
-#include "stdlib.h"
-#include "string.h"
-#include "typecheck.h"
+/*
+ * Created by 沙杰杰 on 2024/5/22.
+ * 文件读取写入以及控制台信息的打印
+ */
+#include "data_define.cpp"
 #include <OpenXLSX.hpp>
 #include <vector>
 #include <string>
 
-// Define the maximum number of records to read
-const int MAX_RECORDS = 100;
 
-
-using namespace OpenXLSX;
-using namespace std;
-
-struct writepersonal {
-    std::string name;
-    char sex;
-    int age;
-    std::string add;
-    std::string tel;
-    double yue;
-};
-
-struct writerecord {
-    int year;
-    int month;
-    int day;
-    char shouzhi;
-    double money;
-    std::string reason;
-};
-struct readpersonal {
-    std::string name;
-    std::string sex;
-    int age;
-    std::string add;
-    std::string tel;
-    double yue;
-};
-
-struct readrecord {
-    int year;
-    int month;
-    int day;
-    std::string shouzhi;
-    int money;
-    std::string reason;
-};
-
-
-const std::string FILENAME1 = "/Users/shajiejie/Desktop/personal.xlsx";
-const std::string FILENAME2 = "/Users/shajiejie/Desktop/money.xlsx";
+/*******************************************************
+功能: 读取文件中的存储信息
+*******************************************************/
 
 void readFromFile1(readpersonal &pe) {
     XLDocument doc;
@@ -87,7 +44,11 @@ void readFromFile2(int row, readrecord &re) {
         doc.close();
 
 }
-void writeToFile1(const writepersonal &pe) {
+/*******************************************************
+功能: 结构体数组中的学生信息输出到文件
+*******************************************************/
+
+void writeToFile1(const personal &pe) {
     XLDocument doc;
     doc.open(FILENAME1);
     auto wks = doc.workbook().worksheet("Personal");
@@ -110,7 +71,7 @@ void writeToFile1(const writepersonal &pe) {
     doc.close();
 }
 
-void writeToFile2(const vector<writerecord> &re) {
+void writeToFile2(const vector<record> &re) {
     XLDocument doc;
     doc.open(FILENAME2);
     auto wks = doc.workbook().worksheet("Records");
@@ -135,21 +96,11 @@ void writeToFile2(const vector<writerecord> &re) {
     doc.close();
 }
 
-int main() {
-    //测试用例
-    writepersonal pe = {"张三", 'M', 30, "某街道", "123456789", 1000.50};
-    writeToFile1(pe);
+/*******************************************************
+功能: 按序打印文件中存储的信息到控制台
+*******************************************************/
 
-    vector<writerecord> re = {
-            {2023, 5, 21, '+', 5000.00, "工资"},
-            {2024, 5, 22, '-', 1500.00, "购物"},
-            {2025, 5, 22, '-', 1500.00, "购物"}
-    };
-    writeToFile2(re);
-
-    int row = 2;
-    int count = 0;
-
+void printPersonal(){
 
     //读取文件
     readpersonal pe_read;
@@ -164,7 +115,11 @@ int main() {
     std::cout << "Telephone: " << pe_read.tel << "   ";
     std::cout << "Balance: " << pe_read.yue << "   ";
 
-    // Print the money data
+}
+
+void printRecord(int row,int count){
+
+
     XLDocument doc;
     doc.open(FILENAME2);
     auto wks = doc.workbook().worksheet("Records");
@@ -194,8 +149,5 @@ int main() {
             break; // Stop if the cell is not an integer
         }
     }
-
-
-    return 0;
-    }
+}
 

@@ -1,34 +1,16 @@
 #include "stdio.h"
 #include "stdlib.h"
 #include "string.h"
-#include <OpenXLSX.hpp>
+#include "file_action.cpp"
+#include "data_define.cpp"
 #include <vector>
-#include <string>
+
 
 #define N 30
-#define FILENAME1 "/Users/shajiejie/Desktop/persenal.xlsx"
-#define FILENAME2 "/Users/shajiejie/Desktop/money.xlsx"
 
 using namespace OpenXLSX;
 using namespace std;
 
-struct personal {
-    char name[10];         /* 姓名 */
-    char sex;              /* 性别 */
-    float age;             /* 年龄 */
-    char add[40];          /* 地址 */
-    char tel[20];          /* 电话 */
-    float yue;             /* 余额 */
-};
-
-struct record {
-    int year;
-    int month;
-    int day;
-    char shouzhi;
-    float money;
-    char reason[50];
-};
 
 /*******************************************************
 功能: 显示菜单
@@ -39,11 +21,12 @@ void displayMenu() {
     printf("+                                                       +\n");
     printf("+                 1. 输入个人信息(第一次进入请选择)     +\n");
     printf("+                 2. 收支记录管理                       +\n");
-    printf("+                 3. 收支清单打印                       +\n");
-    printf("+                 4. 总收入和总支出统计                 +\n");
-    printf("+                 5. 查询当前个人信息及余额             +\n");
-    printf("+                 6. 保存到文件                         +\n");
-    printf("+                 7. 程序结束                           +\n");
+    printf("+                 3. 本次收支清单打印                       +\n");
+    printf("+                 4. 全部收支清单打印                       +\n");
+    printf("+                 5. 总收入和总支出统计                 +\n");
+    printf("+                 6. 查询当前个人信息及余额             +\n");
+    printf("+                 7. 保存到文件                         +\n");
+    printf("+                 8. 程序结束                           +\n");
     printf("+                                                       +\n");
     printf("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
 }
@@ -57,98 +40,6 @@ int login(char password[]) {
         return 1;
     else
         return 0;
-}
-
-/*******************************************************
-功能: 从文件读信息到结构体数组中
-*******************************************************/
-void readFromFile1(personal &pe) {
-    XLDocument doc;
-    doc.open(FILENAME1);
-
-    auto wks = doc.workbook().worksheet("Personal");
-
-    strcpy(pe.name, wks.cell("A2").value().get<std::string>().c_str());
-    pe.sex = wks.cell("B2").value().get<std::string>()[0];
-    pe.age = wks.cell("C2").value().get<double>();
-    strcpy(pe.add, wks.cell("D2").value().get<std::string>().c_str());
-    strcpy(pe.tel, wks.cell("E2").value().get<std::string>().c_str());
-    pe.yue = wks.cell("F2").value().get<double>();
-
-    doc.close();
-}
-
-void readFromFile2(vector<record> &re) {
-    XLDocument doc;
-    doc.open(FILENAME2);
-
-    auto wks = doc.workbook().worksheet("Records");
-
-    int row = 2;
-    while (!wks.cell(row, 1).value().get<std::string>().empty()) {
-        record rec;
-        rec.year = wks.cell(row, 1).value().get<int>();
-        rec.month = wks.cell(row, 2).value().get<int>();
-        rec.day = wks.cell(row, 3).value().get<int>();
-        rec.shouzhi = wks.cell(row, 4).value().get<std::string>()[0];
-        rec.money = wks.cell(row, 5).value().get<double>();
-        strcpy(rec.reason, wks.cell(row, 6).value().get<std::string>().c_str());
-        re.push_back(rec);
-        row++;
-    }
-
-    doc.close();
-}
-
-/*******************************************************
-功能: 结构体数组中的学生信息输出到文件
-*******************************************************/
-void writeToFile1(const personal &pe) {
-    XLDocument doc;
-    doc.create(FILENAME1);
-    auto wks = doc.workbook().worksheet("Personal");
-
-    wks.cell("A1").value() = "姓名";
-    wks.cell("B1").value() = "性别";
-    wks.cell("C1").value() = "年龄";
-    wks.cell("D1").value() = "地址";
-    wks.cell("E1").value() = "电话";
-    wks.cell("F1").value() = "余额";
-
-    wks.cell("A2").value() = pe.name;
-    wks.cell("B2").value() = string(1, pe.sex);
-    wks.cell("C2").value() = pe.age;
-    wks.cell("D2").value() = pe.add;
-    wks.cell("E2").value() = pe.tel;
-    wks.cell("F2").value() = pe.yue;
-
-    doc.save();
-    doc.close();
-}
-
-void writeToFile2(const vector<record> &re) {
-    XLDocument doc;
-    doc.create(FILENAME2);
-    auto wks = doc.workbook().worksheet("Records");
-
-    wks.cell("A1").value() = "年";
-    wks.cell("B1").value() = "月";
-    wks.cell("C1").value() = "日";
-    wks.cell("D1").value() = "收支";
-    wks.cell("E1").value() = "数额";
-    wks.cell("F1").value() = "原因";
-
-    for (size_t i = 0; i < re.size(); ++i) {
-        wks.cell(i + 2, 1).value() = re[i].year;
-        wks.cell(i + 2, 2).value() = re[i].month;
-        wks.cell(i + 2, 3).value() = re[i].day;
-        wks.cell(i + 2, 4).value() = string(1, re[i].shouzhi);
-        wks.cell(i + 2, 5).value() = re[i].money;
-        wks.cell(i + 2, 6).value() = re[i].reason;
-    }
-
-    doc.save();
-    doc.close();
 }
 
 /*******************************************************
@@ -170,6 +61,7 @@ int inputInfo(personal &pe, vector<record> &re) {
     printf("请输入您的余额\n");
     scanf("%f", &pe.yue);
     printf("您的个人信息已经输入完毕,下面请输入您的收支记录\n");
+
     for (i = 0; p != 'n' && i < N; i++) {
         record rec;
         printf("年\n");
@@ -331,8 +223,9 @@ void chaxun(const personal &pe, const vector<record> &re) {
 返回值：int类型
 *******************************************************/
 int main() {
-    personal pe;
-    vector<record> re;
+
+    int row = 2;
+    int count = 0;
     int length = 0;
     int choice = 0; /* select and store menu item */
     int s = 0, arrayLength = 0;
@@ -346,10 +239,15 @@ int main() {
         s = login(password);
     } while (s == 0);
 
-    /* 初始化数据 */
-    readFromFile1(pe);
-    readFromFile2(re);
-    length = re.size();
+    /* 初始化每次输入存储在结构体中的数据 */
+    personal pe;
+    vector<record> re;
+
+    /* 初始化读取文件的结构体*/
+    readpersonal pe_read;
+    readrecord re_read;
+    readFromFile1(pe_read);
+    readFromFile2(row,re_read);
 
     /*====根据用户的选择，执行相应的操作.====*/
     while (1) {
@@ -369,16 +267,20 @@ int main() {
                 outputInfo(re);
                 break;
             case 4:
-                tongji(re);
+                printPersonal();
+                printRecord(row,count);
                 break;
             case 5:
-                chaxun(pe, re);
+                tongji(re);
                 break;
             case 6:
+                chaxun(pe, re);
+                break;
+            case 7:
                 writeToFile1(pe);
                 writeToFile2(re);
                 break;
-            case 7:
+            case 8:
                 exit(0);
                 break;
         }
