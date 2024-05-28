@@ -2,18 +2,21 @@
  * Created by 沙杰杰 on 2024/5/22.
  * 文件读取写入以及控制台信息的打印
  */
-#include "data_define.cpp"
+#include "data_define.h"
+#include "file_action.h"
 #include <OpenXLSX.hpp>
 #include <vector>
 #include <string>
 
+using namespace OpenXLSX;
+using namespace std;
 
 /*******************************************************
 功能: 读取文件中的存储信息
 *******************************************************/
 
 void readFromFile1(readpersonal &pe) {
-    XLDocument doc;
+    OpenXLSX::XLDocument doc;
     doc.open(FILENAME1);
 
     auto wks = doc.workbook().worksheet("Personal");
@@ -29,7 +32,7 @@ void readFromFile1(readpersonal &pe) {
 }
 
 void readFromFile2(int row, readrecord &re) {
-    XLDocument doc;
+    OpenXLSX::XLDocument doc;
     doc.open(FILENAME2);
     auto wks = doc.workbook().worksheet("Records");
 
@@ -49,7 +52,7 @@ void readFromFile2(int row, readrecord &re) {
 *******************************************************/
 
 void writeToFile1(const personal &pe) {
-    XLDocument doc;
+    OpenXLSX::XLDocument doc;
     doc.open(FILENAME1);
     auto wks = doc.workbook().worksheet("Personal");
 
@@ -120,7 +123,7 @@ void printPersonal(){
 void printRecord(int row,int count){
 
 
-    XLDocument doc;
+    OpenXLSX::XLDocument doc;
     doc.open(FILENAME2);
     auto wks = doc.workbook().worksheet("Records");
 

@@ -1,10 +1,10 @@
 #include "stdio.h"
 #include "stdlib.h"
 #include "string.h"
-#include "file_action.cpp"
-#include "data_define.cpp"
+#include "file_action.h"
+#include "data_define.h"
+#include <OpenXLSX.hpp>
 #include <vector>
-
 
 #define N 30
 

@@ -9,7 +9,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/shajiejie/CLionProjects/SalaryManageSystem/src/SalaryManageSystemNew.cpp" "OpenXLSX/CMakeFiles/OpenXLSX.dir/__/src/SalaryManageSystemNew.cpp.o" "gcc" "OpenXLSX/CMakeFiles/OpenXLSX.dir/__/src/SalaryManageSystemNew.cpp.o.d"
-  "/Users/shajiejie/CLionProjects/SalaryManageSystem/src/main.cpp" "OpenXLSX/CMakeFiles/OpenXLSX.dir/__/src/main.cpp.o" "gcc" "OpenXLSX/CMakeFiles/OpenXLSX.dir/__/src/main.cpp.o.d"
   "/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLCell.cpp" "OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.o" "gcc" "OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.o.d"
   "/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLCellIterator.cpp" "OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.o" "gcc" "OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.o.d"
   "/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLCellRange.cpp" "OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.o" "gcc" "OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.o.d"

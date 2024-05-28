@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/shajiejie/CLionProjects/SalaryManageSystem/src/SalaryManageSystemNew.cpp" "CMakeFiles/SalaryManageSystem.dir/src/SalaryManageSystemNew.cpp.o" "gcc" "CMakeFiles/SalaryManageSystem.dir/src/SalaryManageSystemNew.cpp.o.d"
   "/Users/shajiejie/CLionProjects/SalaryManageSystem/src/file_action.cpp" "CMakeFiles/SalaryManageSystem.dir/src/file_action.cpp.o" "gcc" "CMakeFiles/SalaryManageSystem.dir/src/file_action.cpp.o.d"
   )
 

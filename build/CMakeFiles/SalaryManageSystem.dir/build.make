@@ -69,10 +69,24 @@ include CMakeFiles/SalaryManageSystem.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/SalaryManageSystem.dir/flags.make
 
+CMakeFiles/SalaryManageSystem.dir/src/SalaryManageSystemNew.cpp.o: CMakeFiles/SalaryManageSystem.dir/flags.make
+CMakeFiles/SalaryManageSystem.dir/src/SalaryManageSystemNew.cpp.o: /Users/shajiejie/CLionProjects/SalaryManageSystem/src/SalaryManageSystemNew.cpp
+CMakeFiles/SalaryManageSystem.dir/src/SalaryManageSystemNew.cpp.o: CMakeFiles/SalaryManageSystem.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SalaryManageSystem.dir/src/SalaryManageSystemNew.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SalaryManageSystem.dir/src/SalaryManageSystemNew.cpp.o -MF CMakeFiles/SalaryManageSystem.dir/src/SalaryManageSystemNew.cpp.o.d -o CMakeFiles/SalaryManageSystem.dir/src/SalaryManageSystemNew.cpp.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/src/SalaryManageSystemNew.cpp
+
+CMakeFiles/SalaryManageSystem.dir/src/SalaryManageSystemNew.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SalaryManageSystem.dir/src/SalaryManageSystemNew.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shajiejie/CLionProjects/SalaryManageSystem/src/SalaryManageSystemNew.cpp > CMakeFiles/SalaryManageSystem.dir/src/SalaryManageSystemNew.cpp.i
+
+CMakeFiles/SalaryManageSystem.dir/src/SalaryManageSystemNew.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SalaryManageSystem.dir/src/SalaryManageSystemNew.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shajiejie/CLionProjects/SalaryManageSystem/src/SalaryManageSystemNew.cpp -o CMakeFiles/SalaryManageSystem.dir/src/SalaryManageSystemNew.cpp.s
+
 CMakeFiles/SalaryManageSystem.dir/src/file_action.cpp.o: CMakeFiles/SalaryManageSystem.dir/flags.make
 CMakeFiles/SalaryManageSystem.dir/src/file_action.cpp.o: /Users/shajiejie/CLionProjects/SalaryManageSystem/src/file_action.cpp
 CMakeFiles/SalaryManageSystem.dir/src/file_action.cpp.o: CMakeFiles/SalaryManageSystem.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SalaryManageSystem.dir/src/file_action.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SalaryManageSystem.dir/src/file_action.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SalaryManageSystem.dir/src/file_action.cpp.o -MF CMakeFiles/SalaryManageSystem.dir/src/file_action.cpp.o.d -o CMakeFiles/SalaryManageSystem.dir/src/file_action.cpp.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/src/file_action.cpp
 
 CMakeFiles/SalaryManageSystem.dir/src/file_action.cpp.i: cmake_force
@@ -85,16 +99,18 @@ CMakeFiles/SalaryManageSystem.dir/src/file_action.cpp.s: cmake_force
 
 # Object files for target SalaryManageSystem
 SalaryManageSystem_OBJECTS = \
+"CMakeFiles/SalaryManageSystem.dir/src/SalaryManageSystemNew.cpp.o" \
 "CMakeFiles/SalaryManageSystem.dir/src/file_action.cpp.o"
 
 # External object files for target SalaryManageSystem
 SalaryManageSystem_EXTERNAL_OBJECTS =
 
+output/SalaryManageSystem: CMakeFiles/SalaryManageSystem.dir/src/SalaryManageSystemNew.cpp.o
 output/SalaryManageSystem: CMakeFiles/SalaryManageSystem.dir/src/file_action.cpp.o
 output/SalaryManageSystem: CMakeFiles/SalaryManageSystem.dir/build.make
 output/SalaryManageSystem: output/libOpenXLSX.a
 output/SalaryManageSystem: CMakeFiles/SalaryManageSystem.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable output/SalaryManageSystem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable output/SalaryManageSystem"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SalaryManageSystem.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

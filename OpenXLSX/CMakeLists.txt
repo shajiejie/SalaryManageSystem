@@ -125,8 +125,6 @@ endif()
 #=======================================================================================================================
 if (${OPENXLSX_LIBRARY_TYPE} STREQUAL "STATIC")
     add_library(OpenXLSX STATIC ""
-            ../../src/main.cpp
-            ../../src/main.cpp
             ../src/SalaryManageSystemNew.cpp
     )
     add_library(OpenXLSX::OpenXLSX ALIAS OpenXLSX)

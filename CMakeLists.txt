@@ -11,10 +11,11 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/output)
 add_subdirectory(OpenXLSX)
 
 add_executable(SalaryManageSystem
-#        src/SalaryManageSystemNew.cpp
+        src/SalaryManageSystemNew.cpp
         src/file_action.cpp
         src/typecheck.h
-        src/data_define.cpp
+        src/data_define.h
+        src/file_action.h
 )
 
 target_link_libraries(SalaryManageSystem OpenXLSX::OpenXLSX)

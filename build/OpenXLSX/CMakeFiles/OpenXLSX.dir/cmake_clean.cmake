@@ -3,8 +3,6 @@ file(REMOVE_RECURSE
   "../output/libOpenXLSX.pdb"
   "CMakeFiles/OpenXLSX.dir/__/src/SalaryManageSystemNew.cpp.o"
   "CMakeFiles/OpenXLSX.dir/__/src/SalaryManageSystemNew.cpp.o.d"
-  "CMakeFiles/OpenXLSX.dir/__/src/main.cpp.o"
-  "CMakeFiles/OpenXLSX.dir/__/src/main.cpp.o.d"
   "CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.o"
   "CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.o.d"
   "CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.o"

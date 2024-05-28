@@ -199,30 +199,6 @@ __/src/SalaryManageSystemNew.cpp.s:
 	cd /Users/shajiejie/CLionProjects/SalaryManageSystem/build && $(MAKE) $(MAKESILENT) -f OpenXLSX/CMakeFiles/OpenXLSX.dir/build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/__/src/SalaryManageSystemNew.cpp.s
 .PHONY : __/src/SalaryManageSystemNew.cpp.s
 
-__/src/main.o: __/src/main.cpp.o
-.PHONY : __/src/main.o
-
-# target to build an object file
-__/src/main.cpp.o:
-	cd /Users/shajiejie/CLionProjects/SalaryManageSystem/build && $(MAKE) $(MAKESILENT) -f OpenXLSX/CMakeFiles/OpenXLSX.dir/build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/__/src/main.cpp.o
-.PHONY : __/src/main.cpp.o
-
-__/src/main.i: __/src/main.cpp.i
-.PHONY : __/src/main.i
-
-# target to preprocess a source file
-__/src/main.cpp.i:
-	cd /Users/shajiejie/CLionProjects/SalaryManageSystem/build && $(MAKE) $(MAKESILENT) -f OpenXLSX/CMakeFiles/OpenXLSX.dir/build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/__/src/main.cpp.i
-.PHONY : __/src/main.cpp.i
-
-__/src/main.s: __/src/main.cpp.s
-.PHONY : __/src/main.s
-
-# target to generate assembly for a file
-__/src/main.cpp.s:
-	cd /Users/shajiejie/CLionProjects/SalaryManageSystem/build && $(MAKE) $(MAKESILENT) -f OpenXLSX/CMakeFiles/OpenXLSX.dir/build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/__/src/main.cpp.s
-.PHONY : __/src/main.cpp.s
-
 sources/XLCell.o: sources/XLCell.cpp.o
 .PHONY : sources/XLCell.o
 
@@ -743,9 +719,6 @@ help:
 	@echo "... __/src/SalaryManageSystemNew.o"
 	@echo "... __/src/SalaryManageSystemNew.i"
 	@echo "... __/src/SalaryManageSystemNew.s"
-	@echo "... __/src/main.o"
-	@echo "... __/src/main.i"
-	@echo "... __/src/main.s"
 	@echo "... sources/XLCell.o"
 	@echo "... sources/XLCell.i"
 	@echo "... sources/XLCell.s"

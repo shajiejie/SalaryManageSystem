@@ -69,24 +69,10 @@ include OpenXLSX/CMakeFiles/OpenXLSX.dir/progress.make
 # Include the compile flags for this target's objects.
 include OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 
-OpenXLSX/CMakeFiles/OpenXLSX.dir/__/src/main.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
-OpenXLSX/CMakeFiles/OpenXLSX.dir/__/src/main.cpp.o: /Users/shajiejie/CLionProjects/SalaryManageSystem/src/main.cpp
-OpenXLSX/CMakeFiles/OpenXLSX.dir/__/src/main.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/__/src/main.cpp.o"
-	cd /Users/shajiejie/CLionProjects/SalaryManageSystem/build/OpenXLSX && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/__/src/main.cpp.o -MF CMakeFiles/OpenXLSX.dir/__/src/main.cpp.o.d -o CMakeFiles/OpenXLSX.dir/__/src/main.cpp.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/src/main.cpp
-
-OpenXLSX/CMakeFiles/OpenXLSX.dir/__/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/__/src/main.cpp.i"
-	cd /Users/shajiejie/CLionProjects/SalaryManageSystem/build/OpenXLSX && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shajiejie/CLionProjects/SalaryManageSystem/src/main.cpp > CMakeFiles/OpenXLSX.dir/__/src/main.cpp.i
-
-OpenXLSX/CMakeFiles/OpenXLSX.dir/__/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/__/src/main.cpp.s"
-	cd /Users/shajiejie/CLionProjects/SalaryManageSystem/build/OpenXLSX && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shajiejie/CLionProjects/SalaryManageSystem/src/main.cpp -o CMakeFiles/OpenXLSX.dir/__/src/main.cpp.s
-
 OpenXLSX/CMakeFiles/OpenXLSX.dir/__/src/SalaryManageSystemNew.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/__/src/SalaryManageSystemNew.cpp.o: /Users/shajiejie/CLionProjects/SalaryManageSystem/src/SalaryManageSystemNew.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/__/src/SalaryManageSystemNew.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/__/src/SalaryManageSystemNew.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/__/src/SalaryManageSystemNew.cpp.o"
 	cd /Users/shajiejie/CLionProjects/SalaryManageSystem/build/OpenXLSX && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/__/src/SalaryManageSystemNew.cpp.o -MF CMakeFiles/OpenXLSX.dir/__/src/SalaryManageSystemNew.cpp.o.d -o CMakeFiles/OpenXLSX.dir/__/src/SalaryManageSystemNew.cpp.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/src/SalaryManageSystemNew.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/__/src/SalaryManageSystemNew.cpp.i: cmake_force
@@ -100,7 +86,7 @@ OpenXLSX/CMakeFiles/OpenXLSX.dir/__/src/SalaryManageSystemNew.cpp.s: cmake_force
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.o: /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLCell.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.o"
 	cd /Users/shajiejie/CLionProjects/SalaryManageSystem/build/OpenXLSX && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLCell.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.i: cmake_force
@@ -114,7 +100,7 @@ OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.s: cmake_force
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.o: /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLCellIterator.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.o"
 	cd /Users/shajiejie/CLionProjects/SalaryManageSystem/build/OpenXLSX && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLCellIterator.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.i: cmake_force
@@ -128,7 +114,7 @@ OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.s: cmake_force
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.o: /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLCellRange.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.o"
 	cd /Users/shajiejie/CLionProjects/SalaryManageSystem/build/OpenXLSX && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLCellRange.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.i: cmake_force
@@ -142,7 +128,7 @@ OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.s: cmake_force
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.o: /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLCellReference.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.o"
 	cd /Users/shajiejie/CLionProjects/SalaryManageSystem/build/OpenXLSX && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLCellReference.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.i: cmake_force
@@ -156,7 +142,7 @@ OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.s: cmake_force
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.o: /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLCellValue.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.o"
 	cd /Users/shajiejie/CLionProjects/SalaryManageSystem/build/OpenXLSX && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLCellValue.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.i: cmake_force
@@ -170,7 +156,7 @@ OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.s: cmake_force
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.o: /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLColor.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.o"
 	cd /Users/shajiejie/CLionProjects/SalaryManageSystem/build/OpenXLSX && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLColor.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.i: cmake_force
@@ -184,7 +170,7 @@ OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.s: cmake_force
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.o: /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLColumn.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.o"
 	cd /Users/shajiejie/CLionProjects/SalaryManageSystem/build/OpenXLSX && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLColumn.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.i: cmake_force
@@ -198,7 +184,7 @@ OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.s: cmake_force
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.o: /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLContentTypes.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.o"
 	cd /Users/shajiejie/CLionProjects/SalaryManageSystem/build/OpenXLSX && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLContentTypes.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.i: cmake_force
@@ -212,7 +198,7 @@ OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.s: cmake_force
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.o: /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLDateTime.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.o"
 	cd /Users/shajiejie/CLionProjects/SalaryManageSystem/build/OpenXLSX && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLDateTime.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.i: cmake_force
@@ -226,7 +212,7 @@ OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.s: cmake_force
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.o: /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLDocument.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.o"
 	cd /Users/shajiejie/CLionProjects/SalaryManageSystem/build/OpenXLSX && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLDocument.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.i: cmake_force
@@ -240,7 +226,7 @@ OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.s: cmake_force
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.o: /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLFormula.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.o"
 	cd /Users/shajiejie/CLionProjects/SalaryManageSystem/build/OpenXLSX && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLFormula.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.i: cmake_force
@@ -254,7 +240,7 @@ OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.s: cmake_force
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.o: /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLProperties.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.o"
 	cd /Users/shajiejie/CLionProjects/SalaryManageSystem/build/OpenXLSX && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLProperties.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.i: cmake_force
@@ -268,7 +254,7 @@ OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.s: cmake_force
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.o: /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLRelationships.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.o"
 	cd /Users/shajiejie/CLionProjects/SalaryManageSystem/build/OpenXLSX && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLRelationships.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.i: cmake_force
@@ -282,7 +268,7 @@ OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.s: cmake_force
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.o: /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLRow.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.o"
 	cd /Users/shajiejie/CLionProjects/SalaryManageSystem/build/OpenXLSX && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLRow.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.i: cmake_force
@@ -296,7 +282,7 @@ OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.s: cmake_force
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.o: /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLRowData.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.o"
 	cd /Users/shajiejie/CLionProjects/SalaryManageSystem/build/OpenXLSX && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLRowData.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.i: cmake_force
@@ -310,7 +296,7 @@ OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.s: cmake_force
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.o: /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLSharedStrings.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.o"
 	cd /Users/shajiejie/CLionProjects/SalaryManageSystem/build/OpenXLSX && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLSharedStrings.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.i: cmake_force
@@ -324,7 +310,7 @@ OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.s: cmake_force
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.o: /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLSheet.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.o"
 	cd /Users/shajiejie/CLionProjects/SalaryManageSystem/build/OpenXLSX && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLSheet.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.i: cmake_force
@@ -338,7 +324,7 @@ OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.s: cmake_force
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.o: /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLWorkbook.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.o"
 	cd /Users/shajiejie/CLionProjects/SalaryManageSystem/build/OpenXLSX && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLWorkbook.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.i: cmake_force
@@ -352,7 +338,7 @@ OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.s: cmake_force
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.o: /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLXmlData.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.o"
 	cd /Users/shajiejie/CLionProjects/SalaryManageSystem/build/OpenXLSX && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLXmlData.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.i: cmake_force
@@ -366,7 +352,7 @@ OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.s: cmake_force
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.o: /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLXmlFile.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.o"
 	cd /Users/shajiejie/CLionProjects/SalaryManageSystem/build/OpenXLSX && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLXmlFile.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.i: cmake_force
@@ -380,7 +366,7 @@ OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.s: cmake_force
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.o: /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLZipArchive.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.o: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.o"
 	cd /Users/shajiejie/CLionProjects/SalaryManageSystem/build/OpenXLSX && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/sources/XLZipArchive.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.i: cmake_force
@@ -393,7 +379,6 @@ OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.s: cmake_force
 
 # Object files for target OpenXLSX
 OpenXLSX_OBJECTS = \
-"CMakeFiles/OpenXLSX.dir/__/src/main.cpp.o" \
 "CMakeFiles/OpenXLSX.dir/__/src/SalaryManageSystemNew.cpp.o" \
 "CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.o" \
 "CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.o" \
@@ -420,7 +405,6 @@ OpenXLSX_OBJECTS = \
 # External object files for target OpenXLSX
 OpenXLSX_EXTERNAL_OBJECTS =
 
-output/libOpenXLSX.a: OpenXLSX/CMakeFiles/OpenXLSX.dir/__/src/main.cpp.o
 output/libOpenXLSX.a: OpenXLSX/CMakeFiles/OpenXLSX.dir/__/src/SalaryManageSystemNew.cpp.o
 output/libOpenXLSX.a: OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.o
 output/libOpenXLSX.a: OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.o
@@ -445,7 +429,7 @@ output/libOpenXLSX.a: OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.o
 output/libOpenXLSX.a: OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.o
 output/libOpenXLSX.a: OpenXLSX/CMakeFiles/OpenXLSX.dir/build.make
 output/libOpenXLSX.a: OpenXLSX/CMakeFiles/OpenXLSX.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX static library ../output/libOpenXLSX.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX static library ../output/libOpenXLSX.a"
 	cd /Users/shajiejie/CLionProjects/SalaryManageSystem/build/OpenXLSX && $(CMAKE_COMMAND) -P CMakeFiles/OpenXLSX.dir/cmake_clean_target.cmake
 	cd /Users/shajiejie/CLionProjects/SalaryManageSystem/build/OpenXLSX && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OpenXLSX.dir/link.txt --verbose=$(VERBOSE)
 

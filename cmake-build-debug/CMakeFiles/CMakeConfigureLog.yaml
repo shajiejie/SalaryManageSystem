@@ -99,8 +99,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Zh1R9k"
-      binary: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Zh1R9k"
+      source: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-JkIRul"
+      binary: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-JkIRul"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -112,16 +112,18 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Zh1R9k'
+        Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-JkIRul'
         
-        Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -v cmTC_71040
-        [1/2] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics   -v -Wl,-v -MD -MT CMakeFiles/cmTC_71040.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_71040.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_71040.dir/CMakeCCompilerABI.c.o -c /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0372c/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_0372c.dir/build.make CMakeFiles/cmTC_0372c.dir/build
+        Building C object CMakeFiles/cmTC_0372c.dir/CMakeCCompilerABI.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics   -v -Wl,-v -MD -MT CMakeFiles/cmTC_0372c.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_0372c.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_0372c.dir/CMakeCCompilerABI.c.o -c /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCCompilerABI.c
         Apple clang version 15.0.0 (clang-1500.0.40.1)
         Target: arm64-apple-darwin23.4.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.0 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1015.6 -v -fcoverage-compilation-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Zh1R9k -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_71040.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_71040.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Zh1R9k -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -fcolor-diagnostics -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_71040.dir/CMakeCCompilerABI.c.o -x c /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        clang: \x1b[0;1;35mwarning: \x1b[0m\x1b[1m-Wl,-v: 'linker' input unused [-Wunused-command-line-argument]\x1b[0m
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.0 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1015.6 -v -fcoverage-compilation-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-JkIRul -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_0372c.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_0372c.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-JkIRul -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -fcolor-diagnostics -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_0372c.dir/CMakeCCompilerABI.c.o -x c /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCCompilerABI.c
         clang -cc1 version 15.0.0 (clang-1500.0.40.1) default target arm64-apple-darwin23.4.0
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/local/include"
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/Library/Frameworks"
@@ -132,12 +134,14 @@ events:
          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
          /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        [2/2] : && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTC_71040.dir/CMakeCCompilerABI.c.o -o cmTC_71040   && :
+        Linking C executable cmTC_0372c
+        /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0372c.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_0372c.dir/CMakeCCompilerABI.c.o -o cmTC_0372c 
         Apple clang version 15.0.0 (clang-1500.0.40.1)
         Target: arm64-apple-darwin23.4.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o cmTC_71040 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_71040.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o cmTC_0372c -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_0372c.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld  PROJECT:dyld-1015.7
         BUILD 16:59:34 Oct  1 2023
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
@@ -155,17 +159,9 @@ events:
       - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      Parsed C implicit include dir info: rv=done
+      Parsed C implicit include dir info: rv=loading
         found start of include info
-        found start of implicit include info
-          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
-          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include]
-          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
-        end of search list found
-        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
-        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include]
-        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
-        implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        warn: unable to parse implicit include dirs!
       
       
   -
@@ -177,55 +173,17 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Zh1R9k']
+        ignore line: [Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-JkIRul']
         ignore line: []
-        ignore line: [Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -v cmTC_71040]
-        ignore line: [[1/2] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics   -v -Wl -v -MD -MT CMakeFiles/cmTC_71040.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_71040.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_71040.dir/CMakeCCompilerABI.c.o -c /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0372c/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_0372c.dir/build.make CMakeFiles/cmTC_0372c.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_0372c.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics   -v -Wl -v -MD -MT CMakeFiles/cmTC_0372c.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_0372c.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_0372c.dir/CMakeCCompilerABI.c.o -c /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
         ignore line: [Apple clang version 15.0.0 (clang-1500.0.40.1)]
         ignore line: [Target: arm64-apple-darwin23.4.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
-        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.0 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1015.6 -v -fcoverage-compilation-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Zh1R9k -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_71040.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_71040.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Zh1R9k -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -fcolor-diagnostics -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_71040.dir/CMakeCCompilerABI.c.o -x c /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
-        ignore line: [clang -cc1 version 15.0.0 (clang-1500.0.40.1) default target arm64-apple-darwin23.4.0]
-        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/local/include"]
-        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/Library/Frameworks"]
-        ignore line: [#include "..." search starts here:]
-        ignore line: [#include <...> search starts here:]
-        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
-        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include]
-        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
-        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks (framework directory)]
-        ignore line: [End of search list.]
-        ignore line: [[2/2] : && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names -v -Wl -v CMakeFiles/cmTC_71040.dir/CMakeCCompilerABI.c.o -o cmTC_71040   && :]
-        ignore line: [Apple clang version 15.0.0 (clang-1500.0.40.1)]
-        ignore line: [Target: arm64-apple-darwin23.4.0]
-        ignore line: [Thread model: posix]
-        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o cmTC_71040 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_71040.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
-          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
-          arg [-demangle] ==> ignore
-          arg [-lto_library] ==> ignore, skip following value
-          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
-          arg [-dynamic] ==> ignore
-          arg [-arch] ==> ignore
-          arg [arm64] ==> ignore
-          arg [-platform_version] ==> ignore
-          arg [macos] ==> ignore
-          arg [14.0.0] ==> ignore
-          arg [14.0] ==> ignore
-          arg [-syslibroot] ==> ignore
-          arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk] ==> ignore
-          arg [-o] ==> ignore
-          arg [cmTC_71040] ==> ignore
-          arg [-search_paths_first] ==> ignore
-          arg [-headerpad_max_install_names] ==> ignore
-          arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_71040.dir/CMakeCCompilerABI.c.o] ==> ignore
-          arg [-lSystem] ==> lib [System]
-          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
-        remove lib [System]
-        remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        ignore line: [clang: \x1b[0;1;35mwarning: \x1b[0m\x1b[1m-Wl,-v: 'linker' input unused [-Wunused-command-line-argument]\x1b[0m; "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.0 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1015.6 -v -fcoverage-compilation-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-JkIRul -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_0372c.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_0372c.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-JkIRul -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -fcolor-diagnostics -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_0372c.dir/CMakeCCompilerABI.c.o -x c /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCCompilerABI.c;clang -cc1 version 15.0.0 (clang-1500.0.40.1) default target arm64-apple-darwin23.4.0;ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/local/include";ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/Library/Frameworks";#include "..." search starts here:;#include <...> search starts here:; /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include; /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include; /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include; /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks (framework directory);End of search list.;Linking C executable cmTC_0372c;/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0372c.dir/link.txt --verbose=1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_0372c.dir/CMakeCCompilerABI.c.o -o cmTC_0372c ;Apple clang version 15.0.0 (clang-1500.0.40.1);Target: arm64-apple-darwin23.4.0;Thread model: posix;InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin; "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o cmTC_0372c -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_0372c.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a;@(#)PROGRAM:ld  PROJECT:dyld-1015.7;BUILD 16:59:34 Oct  1 2023;configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em;will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em;LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29);TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.0.12.3);Library search paths:;Framework search paths:;;]
         implicit libs: []
         implicit objs: []
         implicit dirs: []
@@ -241,8 +199,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4sWWM0"
-      binary: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4sWWM0"
+      source: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l2JJgI"
+      binary: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l2JJgI"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -254,16 +212,18 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4sWWM0'
+        Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l2JJgI'
         
-        Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -v cmTC_b83ed
-        [1/2] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics   -v -Wl,-v -MD -MT CMakeFiles/cmTC_b83ed.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_b83ed.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_b83ed.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_99a65/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_99a65.dir/build.make CMakeFiles/cmTC_99a65.dir/build
+        Building CXX object CMakeFiles/cmTC_99a65.dir/CMakeCXXCompilerABI.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics   -v -Wl,-v -MD -MT CMakeFiles/cmTC_99a65.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_99a65.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_99a65.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
         Apple clang version 15.0.0 (clang-1500.0.40.1)
         Target: arm64-apple-darwin23.4.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.0 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1015.6 -v -fcoverage-compilation-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4sWWM0 -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_b83ed.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_b83ed.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4sWWM0 -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fcolor-diagnostics -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b83ed.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        clang: \x1b[0;1;35mwarning: \x1b[0m\x1b[1m-Wl,-v: 'linker' input unused [-Wunused-command-line-argument]\x1b[0m
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.0 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1015.6 -v -fcoverage-compilation-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l2JJgI -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_99a65.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_99a65.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l2JJgI -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fcolor-diagnostics -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_99a65.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 15.0.0 (clang-1500.0.40.1) default target arm64-apple-darwin23.4.0
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/local/include"
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/Library/Frameworks"
@@ -275,12 +235,14 @@ events:
          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
          /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        [2/2] : && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTC_b83ed.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b83ed   && :
+        Linking CXX executable cmTC_99a65
+        /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99a65.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_99a65.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_99a65 
         Apple clang version 15.0.0 (clang-1500.0.40.1)
         Target: arm64-apple-darwin23.4.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o cmTC_b83ed -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_b83ed.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o cmTC_99a65 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_99a65.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld  PROJECT:dyld-1015.7
         BUILD 16:59:34 Oct  1 2023
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
@@ -298,19 +260,9 @@ events:
       - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      Parsed CXX implicit include dir info: rv=done
+      Parsed CXX implicit include dir info: rv=loading
         found start of include info
-        found start of implicit include info
-          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1]
-          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
-          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include]
-          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
-        end of search list found
-        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1]
-        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
-        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include]
-        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
-        implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        warn: unable to parse implicit include dirs!
       
       
   -
@@ -322,78 +274,34 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4sWWM0']
+        ignore line: [Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l2JJgI']
         ignore line: []
-        ignore line: [Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -v cmTC_b83ed]
-        ignore line: [[1/2] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics   -v -Wl -v -MD -MT CMakeFiles/cmTC_b83ed.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_b83ed.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_b83ed.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_99a65/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_99a65.dir/build.make CMakeFiles/cmTC_99a65.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_99a65.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics   -v -Wl -v -MD -MT CMakeFiles/cmTC_99a65.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_99a65.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_99a65.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Apple clang version 15.0.0 (clang-1500.0.40.1)]
         ignore line: [Target: arm64-apple-darwin23.4.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
-        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.0 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1015.6 -v -fcoverage-compilation-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4sWWM0 -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_b83ed.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_b83ed.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4sWWM0 -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fcolor-diagnostics -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b83ed.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
-        ignore line: [clang -cc1 version 15.0.0 (clang-1500.0.40.1) default target arm64-apple-darwin23.4.0]
-        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/local/include"]
-        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/Library/Frameworks"]
-        ignore line: [#include "..." search starts here:]
-        ignore line: [#include <...> search starts here:]
-        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1]
-        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
-        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include]
-        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
-        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks (framework directory)]
-        ignore line: [End of search list.]
-        ignore line: [[2/2] : && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names -v -Wl -v CMakeFiles/cmTC_b83ed.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b83ed   && :]
-        ignore line: [Apple clang version 15.0.0 (clang-1500.0.40.1)]
-        ignore line: [Target: arm64-apple-darwin23.4.0]
-        ignore line: [Thread model: posix]
-        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o cmTC_b83ed -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_b83ed.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
-          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
-          arg [-demangle] ==> ignore
-          arg [-lto_library] ==> ignore, skip following value
-          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
-          arg [-dynamic] ==> ignore
-          arg [-arch] ==> ignore
-          arg [arm64] ==> ignore
-          arg [-platform_version] ==> ignore
-          arg [macos] ==> ignore
-          arg [14.0.0] ==> ignore
-          arg [14.0] ==> ignore
-          arg [-syslibroot] ==> ignore
-          arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk] ==> ignore
-          arg [-o] ==> ignore
-          arg [cmTC_b83ed] ==> ignore
-          arg [-search_paths_first] ==> ignore
-          arg [-headerpad_max_install_names] ==> ignore
-          arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_b83ed.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
-          arg [-lc++] ==> lib [c++]
-          arg [-lSystem] ==> lib [System]
-          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
-        remove lib [System]
-        remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
-        implicit libs: [c++]
+        ignore line: [clang: \x1b[0;1;35mwarning: \x1b[0m\x1b[1m-Wl,-v: 'linker' input unused [-Wunused-command-line-argument]\x1b[0m; "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.0 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1015.6 -v -fcoverage-compilation-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l2JJgI -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_99a65.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_99a65.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l2JJgI -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fcolor-diagnostics -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_99a65.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp;clang -cc1 version 15.0.0 (clang-1500.0.40.1) default target arm64-apple-darwin23.4.0;ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/local/include";ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/Library/Frameworks";#include "..." search starts here:;#include <...> search starts here:; /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1; /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include; /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include; /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include; /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks (framework directory);End of search list.;Linking CXX executable cmTC_99a65;/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99a65.dir/link.txt --verbose=1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_99a65.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_99a65 ;Apple clang version 15.0.0 (clang-1500.0.40.1);Target: arm64-apple-darwin23.4.0;Thread model: posix;InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin; "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o cmTC_99a65 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_99a65.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a;@(#)PROGRAM:ld  PROJECT:dyld-1015.7;BUILD 16:59:34 Oct  1 2023;configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em;will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em;LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29);TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.0.12.3);Library search paths:;Framework search paths:;;]
+        implicit libs: []
         implicit objs: []
         implicit dirs: []
         implicit fwks: []
       
       
-...
-
----
-events:
   -
     kind: "try_compile-v1"
     backtrace:
       - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
       - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
-      - "OpenXLSX-master/OpenXLSX/CMakeLists.txt:60 (check_cxx_source_compiles)"
+      - "OpenXLSX/CMakeLists.txt:65 (check_cxx_source_compiles)"
     checks:
       - "Performing Test CHARCONV_RESULT"
     directories:
-      source: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ebFOsq"
-      binary: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ebFOsq"
+      source: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IIK0Lr"
+      binary: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IIK0Lr"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -406,11 +314,15 @@ events:
       variable: "CHARCONV_RESULT"
       cached: true
       stdout: |
-        Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ebFOsq'
+        Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IIK0Lr'
         
-        Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -v cmTC_d7610
-        [1/2] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DCHARCONV_RESULT  -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIE -MD -MT CMakeFiles/cmTC_d7610.dir/src.cxx.o -MF CMakeFiles/cmTC_d7610.dir/src.cxx.o.d -o CMakeFiles/cmTC_d7610.dir/src.cxx.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ebFOsq/src.cxx
-        [2/2] : && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_d7610.dir/src.cxx.o -o cmTC_d7610   && :
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f1a3f/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f1a3f.dir/build.make CMakeFiles/cmTC_f1a3f.dir/build
+        Building CXX object CMakeFiles/cmTC_f1a3f.dir/src.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DCHARCONV_RESULT  -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIE -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_f1a3f.dir/src.cxx.o -MF CMakeFiles/cmTC_f1a3f.dir/src.cxx.o.d -o CMakeFiles/cmTC_f1a3f.dir/src.cxx.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IIK0Lr/src.cxx
+        Linking CXX executable cmTC_f1a3f
+        /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1a3f.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f1a3f.dir/src.cxx.o -o cmTC_f1a3f 
         
       exitCode: 0
   -
@@ -421,12 +333,12 @@ events:
       - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CheckCompilerFlag.cmake:52 (cmake_check_compiler_flag)"
       - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/GenerateExportHeader.cmake:238 (check_compiler_flag)"
       - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/GenerateExportHeader.cmake:419 (_test_compiler_hidden_visibility)"
-      - "OpenXLSX-master/OpenXLSX/CMakeLists.txt:170 (generate_export_header)"
+      - "OpenXLSX/CMakeLists.txt:185 (generate_export_header)"
     checks:
       - "Performing Test COMPILER_HAS_HIDDEN_VISIBILITY"
     directories:
-      source: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YHO2DB"
-      binary: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YHO2DB"
+      source: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4P7sW5"
+      binary: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4P7sW5"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -439,11 +351,15 @@ events:
       variable: "COMPILER_HAS_HIDDEN_VISIBILITY"
       cached: true
       stdout: |
-        Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YHO2DB'
+        Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4P7sW5'
         
-        Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -v cmTC_75ce2
-        [1/2] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DCOMPILER_HAS_HIDDEN_VISIBILITY  -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIE   -fvisibility=hidden -MD -MT CMakeFiles/cmTC_75ce2.dir/src.cxx.o -MF CMakeFiles/cmTC_75ce2.dir/src.cxx.o.d -o CMakeFiles/cmTC_75ce2.dir/src.cxx.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YHO2DB/src.cxx
-        [2/2] : && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_75ce2.dir/src.cxx.o -o cmTC_75ce2   && :
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_179dd/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_179dd.dir/build.make CMakeFiles/cmTC_179dd.dir/build
+        Building CXX object CMakeFiles/cmTC_179dd.dir/src.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DCOMPILER_HAS_HIDDEN_VISIBILITY  -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIE -fcolor-diagnostics   -fvisibility=hidden -MD -MT CMakeFiles/cmTC_179dd.dir/src.cxx.o -MF CMakeFiles/cmTC_179dd.dir/src.cxx.o.d -o CMakeFiles/cmTC_179dd.dir/src.cxx.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4P7sW5/src.cxx
+        Linking CXX executable cmTC_179dd
+        /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_179dd.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_179dd.dir/src.cxx.o -o cmTC_179dd 
         
       exitCode: 0
   -
@@ -454,12 +370,12 @@ events:
       - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CheckCompilerFlag.cmake:52 (cmake_check_compiler_flag)"
       - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/GenerateExportHeader.cmake:239 (check_compiler_flag)"
       - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/GenerateExportHeader.cmake:419 (_test_compiler_hidden_visibility)"
-      - "OpenXLSX-master/OpenXLSX/CMakeLists.txt:170 (generate_export_header)"
+      - "OpenXLSX/CMakeLists.txt:185 (generate_export_header)"
     checks:
       - "Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY"
     directories:
-      source: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-KI2kup"
-      binary: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-KI2kup"
+      source: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0JqBQO"
+      binary: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0JqBQO"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -472,11 +388,15 @@ events:
       variable: "COMPILER_HAS_HIDDEN_INLINE_VISIBILITY"
       cached: true
       stdout: |
-        Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-KI2kup'
+        Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0JqBQO'
         
-        Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -v cmTC_57292
-        [1/2] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIE   -fvisibility-inlines-hidden -MD -MT CMakeFiles/cmTC_57292.dir/src.cxx.o -MF CMakeFiles/cmTC_57292.dir/src.cxx.o.d -o CMakeFiles/cmTC_57292.dir/src.cxx.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-KI2kup/src.cxx
-        [2/2] : && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_57292.dir/src.cxx.o -o cmTC_57292   && :
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e10c6/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e10c6.dir/build.make CMakeFiles/cmTC_e10c6.dir/build
+        Building CXX object CMakeFiles/cmTC_e10c6.dir/src.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIE -fcolor-diagnostics   -fvisibility-inlines-hidden -MD -MT CMakeFiles/cmTC_e10c6.dir/src.cxx.o -MF CMakeFiles/cmTC_e10c6.dir/src.cxx.o.d -o CMakeFiles/cmTC_e10c6.dir/src.cxx.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0JqBQO/src.cxx
+        Linking CXX executable cmTC_e10c6
+        /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e10c6.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e10c6.dir/src.cxx.o -o cmTC_e10c6 
         
       exitCode: 0
   -
@@ -487,12 +407,12 @@ events:
       - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/GenerateExportHeader.cmake:206 (check_source_compiles)"
       - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/GenerateExportHeader.cmake:263 (_check_cxx_compiler_attribute)"
       - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/GenerateExportHeader.cmake:420 (_test_compiler_has_deprecated)"
-      - "OpenXLSX-master/OpenXLSX/CMakeLists.txt:170 (generate_export_header)"
+      - "OpenXLSX/CMakeLists.txt:185 (generate_export_header)"
     checks:
       - "Performing Test COMPILER_HAS_DEPRECATED_ATTR"
     directories:
-      source: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ucEFvy"
-      binary: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ucEFvy"
+      source: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4Nv7It"
+      binary: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4Nv7It"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -505,770 +425,22 @@ events:
       variable: "COMPILER_HAS_DEPRECATED_ATTR"
       cached: true
       stdout: |
-        Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ucEFvy'
+        Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4Nv7It'
         
-        Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -v cmTC_b0bc2
-        [1/2] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DCOMPILER_HAS_DEPRECATED_ATTR  -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIE -MD -MT CMakeFiles/cmTC_b0bc2.dir/src.cxx.o -MF CMakeFiles/cmTC_b0bc2.dir/src.cxx.o.d -o CMakeFiles/cmTC_b0bc2.dir/src.cxx.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ucEFvy/src.cxx
-        /Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ucEFvy/src.cxx:2:25: warning: 'somefunc' is deprecated [-Wdeprecated-declarations]
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7c5f6/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7c5f6.dir/build.make CMakeFiles/cmTC_7c5f6.dir/build
+        Building CXX object CMakeFiles/cmTC_7c5f6.dir/src.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DCOMPILER_HAS_DEPRECATED_ATTR  -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIE -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_7c5f6.dir/src.cxx.o -MF CMakeFiles/cmTC_7c5f6.dir/src.cxx.o.d -o CMakeFiles/cmTC_7c5f6.dir/src.cxx.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4Nv7It/src.cxx
+        \x1b[1m/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4Nv7It/src.cxx:2:25: \x1b[0m\x1b[0;1;35mwarning: \x1b[0m\x1b[1m'somefunc' is deprecated [-Wdeprecated-declarations]\x1b[0m
             int main() { return somefunc();}
-                                ^
-        /Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ucEFvy/src.cxx:1:16: note: 'somefunc' has been explicitly marked deprecated here
+        \x1b[0;1;32m                        ^
+        \x1b[0m\x1b[1m/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4Nv7It/src.cxx:1:16: \x1b[0m\x1b[0;1;30mnote: \x1b[0m'somefunc' has been explicitly marked deprecated here\x1b[0m
         __attribute__((__deprecated__)) int somefunc() { return 0; }
-                       ^
-        1 warning generated.
-        [2/2] : && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_b0bc2.dir/src.cxx.o -o cmTC_b0bc2   && :
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
-      - "OpenXLSX-master/Examples/external/nowide/CMakeLists.txt:48 (check_cxx_source_compiles)"
-    checks:
-      - "Performing Test NOWIDE_HAS_LFS"
-    directories:
-      source: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VMLVor"
-      binary: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VMLVor"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: ""
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Examples/external/nowide/cmake;/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Examples/cmake"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
-    buildResult:
-      variable: "NOWIDE_HAS_LFS"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VMLVor'
-        
-        Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -v cmTC_3d4cd
-        [1/2] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNOWIDE_HAS_LFS  -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_3d4cd.dir/src.cxx.o -MF CMakeFiles/cmTC_3d4cd.dir/src.cxx.o.d -o CMakeFiles/cmTC_3d4cd.dir/src.cxx.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VMLVor/src.cxx
-        [2/2] : && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_3d4cd.dir/src.cxx.o -o cmTC_3d4cd   && :
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "OpenXLSX-master/Benchmarks/gbench/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
-      - "OpenXLSX-master/Benchmarks/gbench/CMakeLists.txt:155 (add_cxx_compiler_flag)"
-    checks:
-      - "Performing Test HAVE_CXX_FLAG_STD_CXX11"
-    directories:
-      source: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lLFSJw"
-      binary: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lLFSJw"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: ""
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake/Modules;/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
-    buildResult:
-      variable: "HAVE_CXX_FLAG_STD_CXX11"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lLFSJw'
-        
-        Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -v cmTC_20e21
-        [1/2] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_FLAG_STD_CXX11  -std=c++11 -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk   -std=c++11 -MD -MT CMakeFiles/cmTC_20e21.dir/src.cxx.o -MF CMakeFiles/cmTC_20e21.dir/src.cxx.o.d -o CMakeFiles/cmTC_20e21.dir/src.cxx.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lLFSJw/src.cxx
-        [2/2] : && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_20e21.dir/src.cxx.o -o cmTC_20e21   && :
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "OpenXLSX-master/Benchmarks/gbench/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
-      - "OpenXLSX-master/Benchmarks/gbench/CMakeLists.txt:161 (add_cxx_compiler_flag)"
-    checks:
-      - "Performing Test HAVE_CXX_FLAG_WALL"
-    directories:
-      source: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ds36ve"
-      binary: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ds36ve"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "  -std=c++11"
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake/Modules;/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
-    buildResult:
-      variable: "HAVE_CXX_FLAG_WALL"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ds36ve'
-        
-        Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -v cmTC_6d616
-        [1/2] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_FLAG_WALL  -std=c++11  -Wall -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk   -Wall -MD -MT CMakeFiles/cmTC_6d616.dir/src.cxx.o -MF CMakeFiles/cmTC_6d616.dir/src.cxx.o.d -o CMakeFiles/cmTC_6d616.dir/src.cxx.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ds36ve/src.cxx
-        [2/2] : && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -std=c++11  -Wall -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_6d616.dir/src.cxx.o -o cmTC_6d616   && :
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "OpenXLSX-master/Benchmarks/gbench/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
-      - "OpenXLSX-master/Benchmarks/gbench/CMakeLists.txt:162 (add_cxx_compiler_flag)"
-    checks:
-      - "Performing Test HAVE_CXX_FLAG_WEXTRA"
-    directories:
-      source: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-1aSy3Q"
-      binary: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-1aSy3Q"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall"
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake/Modules;/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
-    buildResult:
-      variable: "HAVE_CXX_FLAG_WEXTRA"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-1aSy3Q'
-        
-        Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -v cmTC_4eb50
-        [1/2] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_FLAG_WEXTRA  -std=c++11  -Wall  -Wextra -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk   -Wextra -MD -MT CMakeFiles/cmTC_4eb50.dir/src.cxx.o -MF CMakeFiles/cmTC_4eb50.dir/src.cxx.o.d -o CMakeFiles/cmTC_4eb50.dir/src.cxx.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-1aSy3Q/src.cxx
-        [2/2] : && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -std=c++11  -Wall  -Wextra -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_4eb50.dir/src.cxx.o -o cmTC_4eb50   && :
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "OpenXLSX-master/Benchmarks/gbench/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
-      - "OpenXLSX-master/Benchmarks/gbench/CMakeLists.txt:163 (add_cxx_compiler_flag)"
-    checks:
-      - "Performing Test HAVE_CXX_FLAG_WSHADOW"
-    directories:
-      source: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bBKdAa"
-      binary: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bBKdAa"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra"
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake/Modules;/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
-    buildResult:
-      variable: "HAVE_CXX_FLAG_WSHADOW"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bBKdAa'
-        
-        Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -v cmTC_811c4
-        [1/2] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_FLAG_WSHADOW  -std=c++11  -Wall  -Wextra  -Wshadow -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk   -Wshadow -MD -MT CMakeFiles/cmTC_811c4.dir/src.cxx.o -MF CMakeFiles/cmTC_811c4.dir/src.cxx.o.d -o CMakeFiles/cmTC_811c4.dir/src.cxx.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bBKdAa/src.cxx
-        [2/2] : && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -std=c++11  -Wall  -Wextra  -Wshadow -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_811c4.dir/src.cxx.o -o cmTC_811c4   && :
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "OpenXLSX-master/Benchmarks/gbench/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
-      - "OpenXLSX-master/Benchmarks/gbench/CMakeLists.txt:164 (add_cxx_compiler_flag)"
-    checks:
-      - "Performing Test HAVE_CXX_FLAG_WERROR"
-    directories:
-      source: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fDXaBa"
-      binary: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fDXaBa"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow"
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake/Modules;/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
-    buildResult:
-      variable: "HAVE_CXX_FLAG_WERROR"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fDXaBa'
-        
-        Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -v cmTC_dd40f
-        [1/2] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_FLAG_WERROR  -std=c++11  -Wall  -Wextra  -Wshadow  -Werror -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk   -Werror -MD -MT CMakeFiles/cmTC_dd40f.dir/src.cxx.o -MF CMakeFiles/cmTC_dd40f.dir/src.cxx.o.d -o CMakeFiles/cmTC_dd40f.dir/src.cxx.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fDXaBa/src.cxx
-        [2/2] : && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -std=c++11  -Wall  -Wextra  -Wshadow  -Werror -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_dd40f.dir/src.cxx.o -o cmTC_dd40f   && :
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "OpenXLSX-master/Benchmarks/gbench/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
-      - "OpenXLSX-master/Benchmarks/gbench/CMakeLists.txt:169 (add_cxx_compiler_flag)"
-    checks:
-      - "Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE"
-    directories:
-      source: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Q1x8nb"
-      binary: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Q1x8nb"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow"
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake/Modules;/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
-    buildResult:
-      variable: "HAVE_CXX_FLAG_WSUGGEST_OVERRIDE"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Q1x8nb'
-        
-        Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -v cmTC_b3332
-        [1/2] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_FLAG_WSUGGEST_OVERRIDE  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk   -Wsuggest-override -MD -MT CMakeFiles/cmTC_b3332.dir/src.cxx.o -MF CMakeFiles/cmTC_b3332.dir/src.cxx.o.d -o CMakeFiles/cmTC_b3332.dir/src.cxx.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Q1x8nb/src.cxx
-        [2/2] : && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_b3332.dir/src.cxx.o -o cmTC_b3332   && :
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "OpenXLSX-master/Benchmarks/gbench/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
-      - "OpenXLSX-master/Benchmarks/gbench/CMakeLists.txt:171 (add_cxx_compiler_flag)"
-    checks:
-      - "Performing Test HAVE_CXX_FLAG_PEDANTIC"
-    directories:
-      source: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Z18EY1"
-      binary: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Z18EY1"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override"
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake/Modules;/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
-    buildResult:
-      variable: "HAVE_CXX_FLAG_PEDANTIC"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Z18EY1'
-        
-        Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -v cmTC_22a36
-        [1/2] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk   -pedantic -MD -MT CMakeFiles/cmTC_22a36.dir/src.cxx.o -MF CMakeFiles/cmTC_22a36.dir/src.cxx.o.d -o CMakeFiles/cmTC_22a36.dir/src.cxx.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Z18EY1/src.cxx
-        [2/2] : && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_22a36.dir/src.cxx.o -o cmTC_22a36   && :
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "OpenXLSX-master/Benchmarks/gbench/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
-      - "OpenXLSX-master/Benchmarks/gbench/CMakeLists.txt:172 (add_cxx_compiler_flag)"
-    checks:
-      - "Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS"
-    directories:
-      source: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-GUCvlm"
-      binary: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-GUCvlm"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic"
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake/Modules;/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
-    buildResult:
-      variable: "HAVE_CXX_FLAG_PEDANTIC_ERRORS"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-GUCvlm'
-        
-        Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -v cmTC_12ef7
-        [1/2] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk   -pedantic-errors -MD -MT CMakeFiles/cmTC_12ef7.dir/src.cxx.o -MF CMakeFiles/cmTC_12ef7.dir/src.cxx.o.d -o CMakeFiles/cmTC_12ef7.dir/src.cxx.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-GUCvlm/src.cxx
-        [2/2] : && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_12ef7.dir/src.cxx.o -o cmTC_12ef7   && :
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "OpenXLSX-master/Benchmarks/gbench/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
-      - "OpenXLSX-master/Benchmarks/gbench/CMakeLists.txt:173 (add_cxx_compiler_flag)"
-    checks:
-      - "Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
-    directories:
-      source: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dXZfCT"
-      binary: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dXZfCT"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors"
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake/Modules;/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
-    buildResult:
-      variable: "HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dXZfCT'
-        
-        Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -v cmTC_4b02d
-        [1/2] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32 -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk   -Wshorten-64-to-32 -MD -MT CMakeFiles/cmTC_4b02d.dir/src.cxx.o -MF CMakeFiles/cmTC_4b02d.dir/src.cxx.o.d -o CMakeFiles/cmTC_4b02d.dir/src.cxx.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dXZfCT/src.cxx
-        [2/2] : && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_4b02d.dir/src.cxx.o -o cmTC_4b02d   && :
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "OpenXLSX-master/Benchmarks/gbench/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
-      - "OpenXLSX-master/Benchmarks/gbench/CMakeLists.txt:174 (add_cxx_compiler_flag)"
-    checks:
-      - "Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING"
-    directories:
-      source: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-JtbXnO"
-      binary: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-JtbXnO"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32"
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake/Modules;/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
-    buildResult:
-      variable: "HAVE_CXX_FLAG_FSTRICT_ALIASING"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-JtbXnO'
-        
-        Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -v cmTC_7c314
-        [1/2] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk   -fstrict-aliasing -MD -MT CMakeFiles/cmTC_7c314.dir/src.cxx.o -MF CMakeFiles/cmTC_7c314.dir/src.cxx.o.d -o CMakeFiles/cmTC_7c314.dir/src.cxx.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-JtbXnO/src.cxx
-        [2/2] : && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_7c314.dir/src.cxx.o -o cmTC_7c314   && :
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "OpenXLSX-master/Benchmarks/gbench/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
-      - "OpenXLSX-master/Benchmarks/gbench/CMakeLists.txt:177 (add_cxx_compiler_flag)"
-    checks:
-      - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
-    directories:
-      source: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-a5QN0o"
-      binary: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-a5QN0o"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing"
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake/Modules;/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
-    buildResult:
-      variable: "HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-a5QN0o'
-        
-        Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -v cmTC_dc498
-        [1/2] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk   -Wno-deprecated-declarations -MD -MT CMakeFiles/cmTC_dc498.dir/src.cxx.o -MF CMakeFiles/cmTC_dc498.dir/src.cxx.o.d -o CMakeFiles/cmTC_dc498.dir/src.cxx.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-a5QN0o/src.cxx
-        [2/2] : && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_dc498.dir/src.cxx.o -o cmTC_dc498   && :
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "OpenXLSX-master/Benchmarks/gbench/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
-      - "OpenXLSX-master/Benchmarks/gbench/CMakeLists.txt:185 (add_cxx_compiler_flag)"
-    checks:
-      - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED"
-    directories:
-      source: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qJR5VO"
-      binary: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qJR5VO"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations"
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake/Modules;/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
-    buildResult:
-      variable: "HAVE_CXX_FLAG_WNO_DEPRECATED"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qJR5VO'
-        
-        Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -v cmTC_9fad4
-        [1/2] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk   -Wno-deprecated -MD -MT CMakeFiles/cmTC_9fad4.dir/src.cxx.o -MF CMakeFiles/cmTC_9fad4.dir/src.cxx.o.d -o CMakeFiles/cmTC_9fad4.dir/src.cxx.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qJR5VO/src.cxx
-        [2/2] : && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_9fad4.dir/src.cxx.o -o cmTC_9fad4   && :
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "OpenXLSX-master/Benchmarks/gbench/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
-      - "OpenXLSX-master/Benchmarks/gbench/CMakeLists.txt:194 (add_cxx_compiler_flag)"
-    checks:
-      - "Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING"
-    directories:
-      source: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YhkS7k"
-      binary: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YhkS7k"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations"
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake/Modules;/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
-    buildResult:
-      variable: "HAVE_CXX_FLAG_WSTRICT_ALIASING"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YhkS7k'
-        
-        Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -v cmTC_fdee1
-        [1/2] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk   -Wstrict-aliasing -MD -MT CMakeFiles/cmTC_fdee1.dir/src.cxx.o -MF CMakeFiles/cmTC_fdee1.dir/src.cxx.o.d -o CMakeFiles/cmTC_fdee1.dir/src.cxx.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YhkS7k/src.cxx
-        [2/2] : && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_fdee1.dir/src.cxx.o -o cmTC_fdee1   && :
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "OpenXLSX-master/Benchmarks/gbench/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
-      - "OpenXLSX-master/Benchmarks/gbench/CMakeLists.txt:199 (add_cxx_compiler_flag)"
-    checks:
-      - "Performing Test HAVE_CXX_FLAG_WD654"
-    directories:
-      source: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-r8w0vu"
-      binary: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-r8w0vu"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing"
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake/Modules;/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
-    buildResult:
-      variable: "HAVE_CXX_FLAG_WD654"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-r8w0vu'
-        
-        Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -v cmTC_ee7de
-        [1/2] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_FLAG_WD654  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -wd654 -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk   -wd654 -MD -MT CMakeFiles/cmTC_ee7de.dir/src.cxx.o -MF CMakeFiles/cmTC_ee7de.dir/src.cxx.o.d -o CMakeFiles/cmTC_ee7de.dir/src.cxx.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-r8w0vu/src.cxx
-        \x1b[31mFAILED: \x1b[0mCMakeFiles/cmTC_ee7de.dir/src.cxx.o 
-        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_FLAG_WD654  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -wd654 -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk   -wd654 -MD -MT CMakeFiles/cmTC_ee7de.dir/src.cxx.o -MF CMakeFiles/cmTC_ee7de.dir/src.cxx.o.d -o CMakeFiles/cmTC_ee7de.dir/src.cxx.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-r8w0vu/src.cxx
-        clang: error: unknown argument: '-wd654'
-        clang: error: unknown argument: '-wd654'
-        ninja: build stopped: subcommand failed.
-        
-      exitCode: 1
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "OpenXLSX-master/Benchmarks/gbench/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
-      - "OpenXLSX-master/Benchmarks/gbench/CMakeLists.txt:200 (add_cxx_compiler_flag)"
-    checks:
-      - "Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY"
-    directories:
-      source: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IJNgW7"
-      binary: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IJNgW7"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing"
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake/Modules;/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
-    buildResult:
-      variable: "HAVE_CXX_FLAG_WTHREAD_SAFETY"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IJNgW7'
-        
-        Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -v cmTC_0ed31
-        [1/2] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk   -Wthread-safety -MD -MT CMakeFiles/cmTC_0ed31.dir/src.cxx.o -MF CMakeFiles/cmTC_0ed31.dir/src.cxx.o.d -o CMakeFiles/cmTC_0ed31.dir/src.cxx.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IJNgW7/src.cxx
-        [2/2] : && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_0ed31.dir/src.cxx.o -o cmTC_0ed31   && :
-        
-      exitCode: 0
-  -
-    kind: "try_run-v1"
-    backtrace:
-      - "OpenXLSX-master/Benchmarks/gbench/cmake/CXXFeatureCheck.cmake:51 (try_run)"
-      - "OpenXLSX-master/Benchmarks/gbench/CMakeLists.txt:202 (cxx_feature_check)"
-    directories:
-      source: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeTmp"
-      binary: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeTmp"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety"
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake/Modules;/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
-    buildResult:
-      variable: "COMPILE_HAVE_THREAD_SAFETY_ATTRIBUTES"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeTmp'
-        
-        Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -v cmTC_9fd66
-        [1/2] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety  -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_9fd66.dir/thread_safety_attributes.cpp.o -MF CMakeFiles/cmTC_9fd66.dir/thread_safety_attributes.cpp.o.d -o CMakeFiles/cmTC_9fd66.dir/thread_safety_attributes.cpp.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake/thread_safety_attributes.cpp
-        \x1b[31mFAILED: \x1b[0mCMakeFiles/cmTC_9fd66.dir/thread_safety_attributes.cpp.o 
-        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety  -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_9fd66.dir/thread_safety_attributes.cpp.o -MF CMakeFiles/cmTC_9fd66.dir/thread_safety_attributes.cpp.o.d -o CMakeFiles/cmTC_9fd66.dir/thread_safety_attributes.cpp.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake/thread_safety_attributes.cpp
-        In file included from /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake/thread_safety_attributes.cpp:2:
-        In file included from /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake/../src/mutex.h:7:
-        In file included from /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake/../src/check.h:8:
-        /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake/../src/internal_macros.h:4:10: fatal error: 'benchmark/benchmark.h' file not found
-        #include "benchmark/benchmark.h"
-                 ^~~~~~~~~~~~~~~~~~~~~~~
-        1 error generated.
-        ninja: build stopped: subcommand failed.
-        
-      exitCode: 1
-    runResult:
-      variable: "RUN_HAVE_THREAD_SAFETY_ATTRIBUTES"
-      cached: true
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "OpenXLSX-master/Benchmarks/gbench/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
-      - "OpenXLSX-master/Benchmarks/gbench/CMakeLists.txt:251 (add_cxx_compiler_flag)"
-    checks:
-      - "Performing Test HAVE_CXX_FLAG_COVERAGE"
-    directories:
-      source: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jLVd7I"
-      binary: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jLVd7I"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety"
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake/Modules;/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
-    buildResult:
-      variable: "HAVE_CXX_FLAG_COVERAGE"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jLVd7I'
-        
-        Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -v cmTC_0450b
-        [1/2] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_FLAG_COVERAGE  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety  --coverage -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk   --coverage -MD -MT CMakeFiles/cmTC_0450b.dir/src.cxx.o -MF CMakeFiles/cmTC_0450b.dir/src.cxx.o.d -o CMakeFiles/cmTC_0450b.dir/src.cxx.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jLVd7I/src.cxx
-        [2/2] : && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety  --coverage -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_0450b.dir/src.cxx.o -o cmTC_0450b   && :
-        
-      exitCode: 0
-  -
-    kind: "try_run-v1"
-    backtrace:
-      - "OpenXLSX-master/Benchmarks/gbench/cmake/CXXFeatureCheck.cmake:51 (try_run)"
-      - "OpenXLSX-master/Benchmarks/gbench/CMakeLists.txt:280 (cxx_feature_check)"
-    directories:
-      source: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeTmp"
-      binary: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeTmp"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety"
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake/Modules;/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
-    buildResult:
-      variable: "COMPILE_HAVE_STD_REGEX"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeTmp'
-        
-        Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -v cmTC_abd13
-        [1/2] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety  -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_abd13.dir/std_regex.cpp.o -MF CMakeFiles/cmTC_abd13.dir/std_regex.cpp.o.d -o CMakeFiles/cmTC_abd13.dir/std_regex.cpp.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake/std_regex.cpp
-        [2/2] : && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_abd13.dir/std_regex.cpp.o -o cmTC_abd13   && :
-        
-      exitCode: 0
-    runResult:
-      variable: "RUN_HAVE_STD_REGEX"
-      cached: true
-      stdout: |
-      stderr: |
-      exitCode: 0
-  -
-    kind: "try_run-v1"
-    backtrace:
-      - "OpenXLSX-master/Benchmarks/gbench/cmake/CXXFeatureCheck.cmake:51 (try_run)"
-      - "OpenXLSX-master/Benchmarks/gbench/CMakeLists.txt:281 (cxx_feature_check)"
-    directories:
-      source: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeTmp"
-      binary: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeTmp"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety"
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake/Modules;/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
-    buildResult:
-      variable: "COMPILE_HAVE_GNU_POSIX_REGEX"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeTmp'
-        
-        Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -v cmTC_a301d
-        [1/2] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety  -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_a301d.dir/gnu_posix_regex.cpp.o -MF CMakeFiles/cmTC_a301d.dir/gnu_posix_regex.cpp.o.d -o CMakeFiles/cmTC_a301d.dir/gnu_posix_regex.cpp.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake/gnu_posix_regex.cpp
-        \x1b[31mFAILED: \x1b[0mCMakeFiles/cmTC_a301d.dir/gnu_posix_regex.cpp.o 
-        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety  -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_a301d.dir/gnu_posix_regex.cpp.o -MF CMakeFiles/cmTC_a301d.dir/gnu_posix_regex.cpp.o.d -o CMakeFiles/cmTC_a301d.dir/gnu_posix_regex.cpp.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake/gnu_posix_regex.cpp
-        /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake/gnu_posix_regex.cpp:1:10: fatal error: 'gnuregex.h' file not found
-        #include <gnuregex.h>
-                 ^~~~~~~~~~~~
-        1 error generated.
-        ninja: build stopped: subcommand failed.
-        
-      exitCode: 1
-    runResult:
-      variable: "RUN_HAVE_GNU_POSIX_REGEX"
-      cached: true
-  -
-    kind: "try_run-v1"
-    backtrace:
-      - "OpenXLSX-master/Benchmarks/gbench/cmake/CXXFeatureCheck.cmake:51 (try_run)"
-      - "OpenXLSX-master/Benchmarks/gbench/CMakeLists.txt:282 (cxx_feature_check)"
-    directories:
-      source: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeTmp"
-      binary: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeTmp"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety"
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake/Modules;/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
-    buildResult:
-      variable: "COMPILE_HAVE_POSIX_REGEX"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeTmp'
-        
-        Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -v cmTC_c6af9
-        [1/2] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety  -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_c6af9.dir/posix_regex.cpp.o -MF CMakeFiles/cmTC_c6af9.dir/posix_regex.cpp.o.d -o CMakeFiles/cmTC_c6af9.dir/posix_regex.cpp.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake/posix_regex.cpp
-        [2/2] : && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_c6af9.dir/posix_regex.cpp.o -o cmTC_c6af9   && :
-        
-      exitCode: 0
-    runResult:
-      variable: "RUN_HAVE_POSIX_REGEX"
-      cached: true
-      stdout: |
-      stderr: |
-      exitCode: 0
-  -
-    kind: "try_run-v1"
-    backtrace:
-      - "OpenXLSX-master/Benchmarks/gbench/cmake/CXXFeatureCheck.cmake:51 (try_run)"
-      - "OpenXLSX-master/Benchmarks/gbench/CMakeLists.txt:291 (cxx_feature_check)"
-    directories:
-      source: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeTmp"
-      binary: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeTmp"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety"
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake/Modules;/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
-    buildResult:
-      variable: "COMPILE_HAVE_STEADY_CLOCK"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeTmp'
-        
-        Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -v cmTC_860dd
-        [1/2] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety  -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_860dd.dir/steady_clock.cpp.o -MF CMakeFiles/cmTC_860dd.dir/steady_clock.cpp.o.d -o CMakeFiles/cmTC_860dd.dir/steady_clock.cpp.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake/steady_clock.cpp
-        [2/2] : && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_860dd.dir/steady_clock.cpp.o -o cmTC_860dd   && :
-        
-      exitCode: 0
-    runResult:
-      variable: "RUN_HAVE_STEADY_CLOCK"
-      cached: true
-      stdout: |
-      stderr: |
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
-      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
-      - "OpenXLSX-master/Benchmarks/gbench/CMakeLists.txt:294 (find_package)"
-    checks:
-      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
-    directories:
-      source: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Twh6iZ"
-      binary: "/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Twh6iZ"
-    cmakeVariables:
-      CMAKE_C_FLAGS: ""
-      CMAKE_C_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake/Modules;/Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX-master/Benchmarks/gbench/cmake"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
-    buildResult:
-      variable: "CMAKE_HAVE_LIBC_PTHREAD"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Twh6iZ'
-        
-        Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -v cmTC_2007d
-        [1/2] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_2007d.dir/src.c.o -MF CMakeFiles/cmTC_2007d.dir/src.c.o.d -o CMakeFiles/cmTC_2007d.dir/src.c.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Twh6iZ/src.c
-        [2/2] : && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_2007d.dir/src.c.o -o cmTC_2007d   && :
+        \x1b[0;1;32m               ^
+        \x1b[0m1 warning generated.
+        Linking CXX executable cmTC_7c5f6
+        /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c5f6.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_7c5f6.dir/src.cxx.o -o cmTC_7c5f6 
         
       exitCode: 0
 ...
