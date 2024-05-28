@@ -17,6 +17,8 @@ const int MAX_RECORDS = 100;
 const std::string FILENAME1 = "/Users/shajiejie/Desktop/personal.xlsx";
 const std::string FILENAME2 = "/Users/shajiejie/Desktop/money.xlsx";
 
+const int Disburse_Total = 0;
+const int Income_Total = 0;
 
 struct personal {
     char name[10];         /* 姓名 */
@@ -42,7 +44,7 @@ struct readpersonal {
     int age;
     std::string add;
     std::string tel;
-    double yue;
+    float yue;
 };
 
 struct readrecord {
@@ -50,7 +52,7 @@ struct readrecord {
     int month;
     int day;
     std::string shouzhi;
-    int money;
+    float money;
     std::string reason;
 };
 #endif // DATA_DEFINE_H

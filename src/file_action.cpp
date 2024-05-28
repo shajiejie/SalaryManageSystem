@@ -26,7 +26,7 @@ void readFromFile1(readpersonal &pe) {
     pe.age = wks.cell("C2").value().get<int>();
     pe.add = wks.cell("D2").value().get<std::string>();
     pe.tel = wks.cell("E2").value().get<std::string>();
-    pe.yue = wks.cell("F2").value().get<double>();
+    pe.yue = wks.cell("F2").value().get<float>();
 
     doc.close();
 }
@@ -41,12 +41,13 @@ void readFromFile2(int row, readrecord &re) {
         re.month = wks.cell(row, 2).value().get<int>();
         re.day = wks.cell(row, 3).value().get<int>();
         re.shouzhi = wks.cell(row, 4).value().get<std::string>();
-        re.money = wks.cell(row, 5).value().get<int>();
+        re.money = wks.cell(row, 5).value().get<float>();
         re.reason = wks.cell(row, 6).value().get<std::string>();
 
         doc.close();
 
 }
+
 /*******************************************************
 功能: 结构体数组中的学生信息输出到文件
 *******************************************************/

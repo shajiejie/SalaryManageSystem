@@ -98,12 +98,12 @@ OpenXLSX/clean: OpenXLSX/CMakeFiles/OpenXLSX.dir/clean
 CMakeFiles/SalaryManageSystem.dir/all: OpenXLSX/CMakeFiles/OpenXLSX.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SalaryManageSystem.dir/build.make CMakeFiles/SalaryManageSystem.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SalaryManageSystem.dir/build.make CMakeFiles/SalaryManageSystem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=24,25,26 "Built target SalaryManageSystem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=24,25 "Built target SalaryManageSystem"
 .PHONY : CMakeFiles/SalaryManageSystem.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SalaryManageSystem.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles 25
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SalaryManageSystem.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles 0
 .PHONY : CMakeFiles/SalaryManageSystem.dir/rule

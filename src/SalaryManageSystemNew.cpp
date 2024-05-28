@@ -8,7 +8,6 @@
 #include "string.h"
 #include "file_action.h"
 #include "data_define.h"
-#include <OpenXLSX.hpp>
 #include <vector>
 
 #define N 30
@@ -26,12 +25,13 @@ void displayMenu() {
     printf("+                                                       +\n");
     printf("+                 1. 输入个人信息(第一次进入请选择)     +\n");
     printf("+                 2. 收支记录管理                       +\n");
-    printf("+                 3. 本次收支清单打印                       +\n");
-    printf("+                 4. 全部收支清单打印                       +\n");
-    printf("+                 5. 总收入和总支出统计                 +\n");
-    printf("+                 6. 查询当前个人信息及余额             +\n");
-    printf("+                 7. 保存到文件                         +\n");
-    printf("+                 8. 程序结束                           +\n");
+    printf("+                 3. 收支记录管理                       +\n");
+    printf("+                 4. 本次收支清单打印                       +\n");
+    printf("+                 5. 全部收支清单打印                       +\n");
+    printf("+                 6. 总收入和总支出统计                 +\n");
+    printf("+                 7. 查询当前个人信息及余额             +\n");
+    printf("+                 8. 保存到文件                         +\n");
+    printf("+                 9. 程序结束                           +\n");
     printf("+                                                       +\n");
     printf("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
 }
@@ -48,11 +48,9 @@ int login(char password[]) {
 }
 
 /*******************************************************
-功能: 输入信息到结构体数组中
+功能: 个人信息进行添加
 *******************************************************/
-int inputInfo(personal &pe, vector<record> &re) {
-    int i;
-    char p;
+void add_personal(personal &pe) {
     printf("\n请输入您的姓名(只限英文名)\n");
     scanf("%s", pe.name);
     printf("请输入您的性别(m为男性,w为女性)\n");
@@ -67,6 +65,14 @@ int inputInfo(personal &pe, vector<record> &re) {
     scanf("%f", &pe.yue);
     printf("您的个人信息已经输入完毕,下面请输入您的收支记录\n");
 
+}
+
+/*******************************************************
+功能: 个人信息进行添加
+*******************************************************/
+void add_record(vector<record> &re){
+    int i;
+    char p;
     for (i = 0; p != 'n' && i < N; i++) {
         record rec;
         printf("年\n");
@@ -89,8 +95,8 @@ int inputInfo(personal &pe, vector<record> &re) {
             printf("是否还要继续输入y/n\n");
             scanf(" %c", &p);  // 注意这里的空格，防止读取空字符
         }
+        break;
     }
-    return re.size();
 }
 
 /***************************************************
@@ -262,30 +268,36 @@ int main() {
 
         switch (choice) {
             case 1:
-                length = inputInfo(pe, re);
+                add_personal(pe);
                 printf("\n个人信息输入成功\n");
+                add_record(re);
+                printf("\n收支信息输入成功\n");
                 break;
             case 2:
-                guanli(re);
+                add_record(re);
+                printf("\n收支信息输入成功\n");
                 break;
             case 3:
-                outputInfo(re);
+                guanli(re);
                 break;
             case 4:
+                outputInfo(re);
+                break;
+            case 5:
                 printPersonal();
                 printRecord(row,count);
                 break;
-            case 5:
+            case 6:
                 tongji(re);
                 break;
-            case 6:
+            case 7:
                 chaxun(pe, re);
                 break;
-            case 7:
+            case 8:
                 writeToFile1(pe);
                 writeToFile2(re);
                 break;
-            case 8:
+            case 9:
                 exit(0);
                 break;
         }

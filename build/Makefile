@@ -187,53 +187,29 @@ OpenXLSX/fast:
 	$(MAKE) $(MAKESILENT) -f OpenXLSX/CMakeFiles/OpenXLSX.dir/build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/build
 .PHONY : OpenXLSX/fast
 
-src/SalaryManageSystemNew.o: src/SalaryManageSystemNew.cpp.o
-.PHONY : src/SalaryManageSystemNew.o
+src/balance_calculate.o: src/balance_calculate.cpp.o
+.PHONY : src/balance_calculate.o
 
 # target to build an object file
-src/SalaryManageSystemNew.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SalaryManageSystem.dir/build.make CMakeFiles/SalaryManageSystem.dir/src/SalaryManageSystemNew.cpp.o
-.PHONY : src/SalaryManageSystemNew.cpp.o
+src/balance_calculate.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SalaryManageSystem.dir/build.make CMakeFiles/SalaryManageSystem.dir/src/balance_calculate.cpp.o
+.PHONY : src/balance_calculate.cpp.o
 
-src/SalaryManageSystemNew.i: src/SalaryManageSystemNew.cpp.i
-.PHONY : src/SalaryManageSystemNew.i
-
-# target to preprocess a source file
-src/SalaryManageSystemNew.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SalaryManageSystem.dir/build.make CMakeFiles/SalaryManageSystem.dir/src/SalaryManageSystemNew.cpp.i
-.PHONY : src/SalaryManageSystemNew.cpp.i
-
-src/SalaryManageSystemNew.s: src/SalaryManageSystemNew.cpp.s
-.PHONY : src/SalaryManageSystemNew.s
-
-# target to generate assembly for a file
-src/SalaryManageSystemNew.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SalaryManageSystem.dir/build.make CMakeFiles/SalaryManageSystem.dir/src/SalaryManageSystemNew.cpp.s
-.PHONY : src/SalaryManageSystemNew.cpp.s
-
-src/file_action.o: src/file_action.cpp.o
-.PHONY : src/file_action.o
-
-# target to build an object file
-src/file_action.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SalaryManageSystem.dir/build.make CMakeFiles/SalaryManageSystem.dir/src/file_action.cpp.o
-.PHONY : src/file_action.cpp.o
-
-src/file_action.i: src/file_action.cpp.i
-.PHONY : src/file_action.i
+src/balance_calculate.i: src/balance_calculate.cpp.i
+.PHONY : src/balance_calculate.i
 
 # target to preprocess a source file
-src/file_action.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SalaryManageSystem.dir/build.make CMakeFiles/SalaryManageSystem.dir/src/file_action.cpp.i
-.PHONY : src/file_action.cpp.i
+src/balance_calculate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SalaryManageSystem.dir/build.make CMakeFiles/SalaryManageSystem.dir/src/balance_calculate.cpp.i
+.PHONY : src/balance_calculate.cpp.i
 
-src/file_action.s: src/file_action.cpp.s
-.PHONY : src/file_action.s
+src/balance_calculate.s: src/balance_calculate.cpp.s
+.PHONY : src/balance_calculate.s
 
 # target to generate assembly for a file
-src/file_action.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SalaryManageSystem.dir/build.make CMakeFiles/SalaryManageSystem.dir/src/file_action.cpp.s
-.PHONY : src/file_action.cpp.s
+src/balance_calculate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SalaryManageSystem.dir/build.make CMakeFiles/SalaryManageSystem.dir/src/balance_calculate.cpp.s
+.PHONY : src/balance_calculate.cpp.s
 
 # Help Target
 help:
@@ -249,12 +225,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... OpenXLSX"
 	@echo "... SalaryManageSystem"
-	@echo "... src/SalaryManageSystemNew.o"
-	@echo "... src/SalaryManageSystemNew.i"
-	@echo "... src/SalaryManageSystemNew.s"
-	@echo "... src/file_action.o"
-	@echo "... src/file_action.i"
-	@echo "... src/file_action.s"
+	@echo "... src/balance_calculate.o"
+	@echo "... src/balance_calculate.i"
+	@echo "... src/balance_calculate.s"
 .PHONY : help
 
 
