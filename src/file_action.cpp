@@ -110,7 +110,7 @@ void printPersonal(){
     readFromFile1(pe_read);
 
     // Print the personal data
-    std::cout << "Personal Data:" << std::endl;
+    std::cout << "                            Personal Data:           " << std::endl;
     std::cout << "Name: " << pe_read.name << "   ";
     std::cout << "Sex: " << pe_read.sex << "   ";
     std::cout << "Age: " << pe_read.age << "   ";
@@ -138,7 +138,7 @@ void printRecord(int row,int count){
                 row++;
                 count++;
 
-                std::cout << "\nRecords Data:" << std::endl;
+                std::cout << "\n                             Records Data :          " << std::endl;
                 std::cout << "year " << re_read.year << "    ";
                 std::cout << "month " << re_read.month << "    ";
                 std::cout << "day " << re_read.day << "   ";

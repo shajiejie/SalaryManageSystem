@@ -1,3 +1,8 @@
+/*
+ * SalaryManageSystemNew.cpp
+ * Created by 沙杰杰 on 2024/5/20.
+ * 控制台主函数
+ */
 #include "stdio.h"
 #include "stdlib.h"
 #include "string.h"
@@ -252,7 +257,7 @@ int main() {
     /*====根据用户的选择，执行相应的操作.====*/
     while (1) {
         displayMenu();
-        printf("\n 请选择您的操作(1,2,3,4,5,6,7)：\n");
+        printf("\n 请选择您的操作(1,2,3,4,5,6,7,8)：\n");
         scanf("%d", &choice);
 
         switch (choice) {
