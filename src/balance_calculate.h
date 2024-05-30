@@ -6,9 +6,9 @@
 #define SALARYMANAGESYSTEM_BALANCE_CALCULATE_H
 
 
-float disburseCalculate(int row, int count);
+double disburseCalculate(int row, int count);
 
-float incomeCalculate(int row, int count);
+double incomeCalculate(int row, int count);
 
 void balance_change(int row);
 

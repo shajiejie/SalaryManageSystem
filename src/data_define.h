@@ -11,22 +11,22 @@
 #include "data_define.h"
 #include <OpenXLSX.hpp>
 
+#define N 30
+
 // Define the maximum number of records to read
 const int MAX_RECORDS = 100;
 
 const std::string FILENAME1 = "/Users/shajiejie/Desktop/personal.xlsx";
 const std::string FILENAME2 = "/Users/shajiejie/Desktop/money.xlsx";
 
-const int Disburse_Total = 0;
-const int Income_Total = 0;
 
 struct personal {
     char name[10];         /* 姓名 */
     char sex;              /* 性别 */
-    float age;             /* 年龄 */
+    int age;             /* 年龄 */
     char add[40];          /* 地址 */
     char tel[20];          /* 电话 */
-    float yue;             /* 余额 */
+    double yue;             /* 余额 */
 };
 
 struct record {
@@ -34,7 +34,7 @@ struct record {
     int month;
     int day;
     char shouzhi;
-    float money;
+    double money;
     char reason[50];
 };
 
@@ -44,7 +44,7 @@ struct readpersonal {
     int age;
     std::string add;
     std::string tel;
-    float yue;
+    double yue;
 };
 
 struct readrecord {
@@ -52,7 +52,7 @@ struct readrecord {
     int month;
     int day;
     std::string shouzhi;
-    float money;
+    double money;
     std::string reason;
 };
 #endif // DATA_DEFINE_H

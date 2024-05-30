@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/shajiejie/CLionProjects/SalaryManageSystem/src/balance_calculate.cpp" "CMakeFiles/SalaryManageSystem.dir/src/balance_calculate.cpp.o" "gcc" "CMakeFiles/SalaryManageSystem.dir/src/balance_calculate.cpp.o.d"
+  "/Users/shajiejie/CLionProjects/SalaryManageSystem/src/test.cpp" "CMakeFiles/SalaryManageSystem.dir/src/test.cpp.o" "gcc" "CMakeFiles/SalaryManageSystem.dir/src/test.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -187,29 +187,29 @@ OpenXLSX/fast:
 	$(MAKE) $(MAKESILENT) -f OpenXLSX/CMakeFiles/OpenXLSX.dir/build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/build
 .PHONY : OpenXLSX/fast
 
-src/balance_calculate.o: src/balance_calculate.cpp.o
-.PHONY : src/balance_calculate.o
+src/test.o: src/test.cpp.o
+.PHONY : src/test.o
 
 # target to build an object file
-src/balance_calculate.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SalaryManageSystem.dir/build.make CMakeFiles/SalaryManageSystem.dir/src/balance_calculate.cpp.o
-.PHONY : src/balance_calculate.cpp.o
+src/test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SalaryManageSystem.dir/build.make CMakeFiles/SalaryManageSystem.dir/src/test.cpp.o
+.PHONY : src/test.cpp.o
 
-src/balance_calculate.i: src/balance_calculate.cpp.i
-.PHONY : src/balance_calculate.i
+src/test.i: src/test.cpp.i
+.PHONY : src/test.i
 
 # target to preprocess a source file
-src/balance_calculate.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SalaryManageSystem.dir/build.make CMakeFiles/SalaryManageSystem.dir/src/balance_calculate.cpp.i
-.PHONY : src/balance_calculate.cpp.i
+src/test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SalaryManageSystem.dir/build.make CMakeFiles/SalaryManageSystem.dir/src/test.cpp.i
+.PHONY : src/test.cpp.i
 
-src/balance_calculate.s: src/balance_calculate.cpp.s
-.PHONY : src/balance_calculate.s
+src/test.s: src/test.cpp.s
+.PHONY : src/test.s
 
 # target to generate assembly for a file
-src/balance_calculate.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SalaryManageSystem.dir/build.make CMakeFiles/SalaryManageSystem.dir/src/balance_calculate.cpp.s
-.PHONY : src/balance_calculate.cpp.s
+src/test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SalaryManageSystem.dir/build.make CMakeFiles/SalaryManageSystem.dir/src/test.cpp.s
+.PHONY : src/test.cpp.s
 
 # Help Target
 help:
@@ -225,9 +225,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... OpenXLSX"
 	@echo "... SalaryManageSystem"
-	@echo "... src/balance_calculate.o"
-	@echo "... src/balance_calculate.i"
-	@echo "... src/balance_calculate.s"
+	@echo "... src/test.o"
+	@echo "... src/test.i"
+	@echo "... src/test.s"
 .PHONY : help
 
 

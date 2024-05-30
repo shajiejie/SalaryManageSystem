@@ -846,4 +846,5 @@ OpenXLSX/CMakeFiles/OpenXLSX.dir/__/src/SalaryManageSystemNew.cpp.o: \
   /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/headers/XLRowData.hpp \
   /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/headers/XLConstants.hpp \
   /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/headers/XLSheet.hpp \
-  /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/headers/XLColor.hpp
+  /Users/shajiejie/CLionProjects/SalaryManageSystem/OpenXLSX/headers/XLColor.hpp \
+  /Users/shajiejie/CLionProjects/SalaryManageSystem/src/balance_calculate.h

@@ -8,9 +8,9 @@
 #include "string.h"
 #include "file_action.h"
 #include "data_define.h"
+#include "balance_calculate.h"
 #include <vector>
 
-#define N 30
 
 using namespace OpenXLSX;
 using namespace std;
@@ -24,11 +24,11 @@ void displayMenu() {
     printf("+               个人收支管理系统MAX                     +\n");
     printf("+                                                       +\n");
     printf("+                 1. 输入个人信息(第一次进入请选择)     +\n");
-    printf("+                 2. 收支记录管理                       +\n");
-    printf("+                 3. 收支记录管理                       +\n");
-    printf("+                 4. 本次收支清单打印                       +\n");
-    printf("+                 5. 全部收支清单打印                       +\n");
-    printf("+                 6. 总收入和总支出统计                 +\n");
+    printf("+                 2. 本次总收入和总支出统计                      +\n");
+    printf("+                 3. 全部总收入和总支出统计                      +\n");
+    printf("+                 4. 收支记录管理                       +\n");
+    printf("+                 5. 本次收支清单打印                       +\n");
+    printf("+                 6. 全部收支清单打印                 +\n");
     printf("+                 7. 查询当前个人信息及余额             +\n");
     printf("+                 8. 保存到文件                         +\n");
     printf("+                 9. 程序结束                           +\n");
@@ -56,13 +56,13 @@ void add_personal(personal &pe) {
     printf("请输入您的性别(m为男性,w为女性)\n");
     scanf(" %c", &pe.sex);  // 注意这里的空格，防止读取空字符
     printf("请输入您的年龄\n");
-    scanf("%f", &pe.age);
+    scanf("%d", &pe.age);
     printf("请输入您的地址(限用拼音或英文,中间加空格)\n");
     scanf("%s", pe.add);
     printf("请输入您的电话(只需要一个)\n");
     scanf("%s", pe.tel);
     printf("请输入您的余额\n");
-    scanf("%f", &pe.yue);
+    scanf("%lf", &pe.yue);
     printf("您的个人信息已经输入完毕,下面请输入您的收支记录\n");
 
 }
@@ -71,9 +71,9 @@ void add_personal(personal &pe) {
 功能: 个人信息进行添加
 *******************************************************/
 void add_record(vector<record> &re){
-    int i;
-    char p;
-    for (i = 0; p != 'n' && i < N; i++) {
+    int i = 0;
+    char p = 'y';  // 初始化为 'y'，以便进入循环
+    while (p != 'n' && i < N) {  // 使用 while 循环更清晰
         record rec;
         printf("年\n");
         scanf("%d", &rec.year);
@@ -82,20 +82,18 @@ void add_record(vector<record> &re){
         printf("日\n");
         scanf("%d", &rec.day);
         printf("收入或者支出(收入为+,支出为-)\n");
-        getchar();
-        scanf("%c", &rec.shouzhi);
+        scanf(" %c", &rec.shouzhi);  // 直接使用空格处理前一个输入的换行符
         printf("收入或者支出的数额\n");
-        scanf("%f", &rec.money);
+        scanf("%lf", &rec.money);
         printf("请输入原因(只限拼音或者英文)\n");
         scanf("%s", rec.reason);
 
         re.push_back(rec);
 
-        if (i < N) {
-            printf("是否还要继续输入y/n\n");
-            scanf(" %c", &p);  // 注意这里的空格，防止读取空字符
-        }
-        break;
+        printf("是否还要继续输入y/n\n");
+        scanf(" %c", &p);  // 读取用户是否继续的决定
+
+        i++;  // 递增循环计数器
     }
 }
 
@@ -125,7 +123,7 @@ void guanli(vector<record> &re) {
                 getchar();
                 scanf("%c", &rec.shouzhi);
                 printf("收入或者支出的数额\n");
-                scanf("%f", &rec.money);
+                scanf("%lf", &rec.money);
                 printf("请输入原因(只限拼音或者英文)\n");
                 scanf("%s", rec.reason);
 
@@ -162,7 +160,7 @@ void guanli(vector<record> &re) {
                 getchar();
                 scanf("%c", &rec.shouzhi);
                 printf("收入或者支出的数额\n");
-                scanf("%f", &rec.money);
+                scanf("%lf", &rec.money);
                 printf("请输入原因(只限拼音或者英文)\n");
                 scanf("%s", rec.reason);
 
@@ -174,59 +172,6 @@ void guanli(vector<record> &re) {
     }
 }
 
-/*******************************************************
-功能: 打印收支清单
-*******************************************************/
-void outputInfo(const vector<record> &re) {
-    printf("************************收支清单****************************\n");
-    printf("日期                                                    收支\n");
-    for (const auto &rec : re) {
-        printf("%d.%d.%d                                              %c%f\n", rec.year, rec.month, rec.day, rec.shouzhi, rec.money);
-    }
-}
-
-/************************************
-总收入和支出统计
-************************************/
-void tongji(const vector<record> &re) {
-    float s = 0, z = 0;
-    for (const auto &rec : re) {
-        if (rec.shouzhi == '+')
-            s += rec.money;
-        else
-            z += rec.money;
-    }
-    printf("总收入=%f\n", s);
-    printf("总支出=%f\n", z);
-}
-
-/****************************************************
-查询个人信息以及余额
-****************************************************/
-void chaxun(const personal &pe, const vector<record> &re) {
-    float total = 0, ye;
-    for (const auto &rec : re) {
-        if (rec.shouzhi == '+')
-            total += rec.money;
-        else
-            total -= rec.money;
-    }
-    ye = pe.yue + total;
-    printf("\n姓名)\n");
-    printf("%s\n", pe.name);
-    printf("性别\n");
-    printf("%c\n", pe.sex);
-    printf("年龄\n");
-    printf("%f\n", pe.age);
-    printf("地址)\n");
-    printf("%s\n", pe.add);
-    printf("电话\n");
-    printf("%s\n", pe.tel);
-    printf("余额\n");
-    printf("%f\n", ye);
-}
-
-
 
 /*******************************************************
 功能: 主函数
@@ -237,18 +182,9 @@ int main() {
 
     int row = 2;
     int count = 0;
-    int length = 0;
     int choice = 0; /* select and store menu item */
     int s = 0, arrayLength = 0;
     char password[10];
-
-    /*====验证用户的口令，直到正确为止====*/
-    do {
-        printf("请输入包装盒上的密钥：\n");
-        scanf("%s", password);
-
-        s = login(password);
-    } while (s == 0);
 
     /* 初始化每次输入存储在结构体中的数据 */
     personal pe;
@@ -260,6 +196,19 @@ int main() {
     readFromFile1(pe_read);
     readFromFile2(row,re_read);
 
+    float disbursetotal = disburseCalculate(row, 0);
+    float incometotal = incomeCalculate(row, 0);
+
+
+    /*====验证用户的口令，直到正确为止====*/
+    do {
+        printf("请输入包装盒上的密钥：\n");
+        scanf("%s", password);
+
+        s = login(password);
+    } while (s == 0);
+
+
     /*====根据用户的选择，执行相应的操作.====*/
     while (1) {
         displayMenu();
@@ -270,31 +219,32 @@ int main() {
             case 1:
                 add_personal(pe);
                 printf("\n个人信息输入成功\n");
+                writeToFile1(pe);
                 add_record(re);
                 printf("\n收支信息输入成功\n");
                 break;
             case 2:
-                add_record(re);
-                printf("\n收支信息输入成功\n");
+//                tongji(re);
                 break;
             case 3:
-                guanli(re);
+                cout << "Total income: " << disbursetotal << endl; // 输出总支出
+                cout << "Total income: " << incometotal << endl; // 输出总收入
                 break;
             case 4:
-                outputInfo(re);
+                guanli(re);
                 break;
             case 5:
+
+                break;
+            case 6:
                 printPersonal();
                 printRecord(row,count);
                 break;
-            case 6:
-                tongji(re);
-                break;
             case 7:
-                chaxun(pe, re);
+                balance_change(row);
+                printPersonal();
                 break;
             case 8:
-                writeToFile1(pe);
                 writeToFile2(re);
                 break;
             case 9:

@@ -69,28 +69,28 @@ include CMakeFiles/SalaryManageSystem.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/SalaryManageSystem.dir/flags.make
 
-CMakeFiles/SalaryManageSystem.dir/src/balance_calculate.cpp.o: CMakeFiles/SalaryManageSystem.dir/flags.make
-CMakeFiles/SalaryManageSystem.dir/src/balance_calculate.cpp.o: /Users/shajiejie/CLionProjects/SalaryManageSystem/src/balance_calculate.cpp
-CMakeFiles/SalaryManageSystem.dir/src/balance_calculate.cpp.o: CMakeFiles/SalaryManageSystem.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SalaryManageSystem.dir/src/balance_calculate.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SalaryManageSystem.dir/src/balance_calculate.cpp.o -MF CMakeFiles/SalaryManageSystem.dir/src/balance_calculate.cpp.o.d -o CMakeFiles/SalaryManageSystem.dir/src/balance_calculate.cpp.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/src/balance_calculate.cpp
+CMakeFiles/SalaryManageSystem.dir/src/test.cpp.o: CMakeFiles/SalaryManageSystem.dir/flags.make
+CMakeFiles/SalaryManageSystem.dir/src/test.cpp.o: /Users/shajiejie/CLionProjects/SalaryManageSystem/src/test.cpp
+CMakeFiles/SalaryManageSystem.dir/src/test.cpp.o: CMakeFiles/SalaryManageSystem.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shajiejie/CLionProjects/SalaryManageSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SalaryManageSystem.dir/src/test.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SalaryManageSystem.dir/src/test.cpp.o -MF CMakeFiles/SalaryManageSystem.dir/src/test.cpp.o.d -o CMakeFiles/SalaryManageSystem.dir/src/test.cpp.o -c /Users/shajiejie/CLionProjects/SalaryManageSystem/src/test.cpp
 
-CMakeFiles/SalaryManageSystem.dir/src/balance_calculate.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SalaryManageSystem.dir/src/balance_calculate.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shajiejie/CLionProjects/SalaryManageSystem/src/balance_calculate.cpp > CMakeFiles/SalaryManageSystem.dir/src/balance_calculate.cpp.i
+CMakeFiles/SalaryManageSystem.dir/src/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SalaryManageSystem.dir/src/test.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shajiejie/CLionProjects/SalaryManageSystem/src/test.cpp > CMakeFiles/SalaryManageSystem.dir/src/test.cpp.i
 
-CMakeFiles/SalaryManageSystem.dir/src/balance_calculate.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SalaryManageSystem.dir/src/balance_calculate.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shajiejie/CLionProjects/SalaryManageSystem/src/balance_calculate.cpp -o CMakeFiles/SalaryManageSystem.dir/src/balance_calculate.cpp.s
+CMakeFiles/SalaryManageSystem.dir/src/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SalaryManageSystem.dir/src/test.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shajiejie/CLionProjects/SalaryManageSystem/src/test.cpp -o CMakeFiles/SalaryManageSystem.dir/src/test.cpp.s
 
 # Object files for target SalaryManageSystem
 SalaryManageSystem_OBJECTS = \
-"CMakeFiles/SalaryManageSystem.dir/src/balance_calculate.cpp.o"
+"CMakeFiles/SalaryManageSystem.dir/src/test.cpp.o"
 
 # External object files for target SalaryManageSystem
 SalaryManageSystem_EXTERNAL_OBJECTS =
 
-output/SalaryManageSystem: CMakeFiles/SalaryManageSystem.dir/src/balance_calculate.cpp.o
+output/SalaryManageSystem: CMakeFiles/SalaryManageSystem.dir/src/test.cpp.o
 output/SalaryManageSystem: CMakeFiles/SalaryManageSystem.dir/build.make
 output/SalaryManageSystem: output/libOpenXLSX.a
 output/SalaryManageSystem: CMakeFiles/SalaryManageSystem.dir/link.txt

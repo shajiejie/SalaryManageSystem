@@ -16,13 +16,14 @@ double roundToTwoDecimals(double value) {
     return std::round(value * 100.0) / 100.0;
 }
 
-float disburseCalculate(int row, int count) {
+double disburseCalculate(int row, int count) {
+
     OpenXLSX::XLDocument doc;
     doc.open(FILENAME2); // 打开 Excel 文档
     auto wks = doc.workbook().worksheet("Records"); // 访问特定的工作表
 
 
-    float disbursetotal = 0; // 初始化累加器
+    double disbursetotal = 0; // 初始化累加器
 
     while (count < MAX_RECORDS) {
         auto yearcell = wks.cell(row, 1);
@@ -37,7 +38,7 @@ float disburseCalculate(int row, int count) {
 
             string symbol = symbolcell.value().get<std::string>();
             if (symbol == "-") {
-                float amount = numbercell.value().get<float>();
+                double amount = numbercell.value().get<double>();
                 disbursetotal += amount; // 累加支出
             }
 
@@ -52,12 +53,13 @@ float disburseCalculate(int row, int count) {
     return disbursetotal;
 }
 
-float incomeCalculate(int row, int count){
+double incomeCalculate(int row, int count){
+
     OpenXLSX::XLDocument doc;
     doc.open(FILENAME2); // 打开 Excel 文档
     auto wks = doc.workbook().worksheet("Records"); // 访问特定的工作表
 
-    float incometotal = 0;
+    double incometotal = 0;
 
     while (count < MAX_RECORDS) {
         auto yearcell = wks.cell(row, 1);
@@ -72,7 +74,7 @@ float incomeCalculate(int row, int count){
 
             string symbol = symbolcell.value().get<std::string>();
             if (symbol == "+") {
-                float amount = numbercell.value().get<float>();
+                double amount = numbercell.value().get<double>();
                 incometotal += amount; // 累加收入
             }
 
@@ -109,7 +111,7 @@ void balance_change(int row) {
         }
 
         string type = recordsSheet.cell(XLCellReference(row, 4)).value().get<std::string>();
-        float amount = recordsSheet.cell(XLCellReference(row, 5)).value().get<float>();
+        double amount = recordsSheet.cell(XLCellReference(row, 5)).value().get<double>();
 
         // 根据收支类型调整余额
         if (type == "+") {
@@ -130,13 +132,4 @@ void balance_change(int row) {
 
     docPersonal.save();  // 保存更改
     docPersonal.close();  // 关闭文件
-}
-int main() {
-    float total1 = disburseCalculate(2, 0); // 假设从第1行开始，并且计数器初始化为0
-    cout << "Total income: " << total1 << endl; // 输出总支出
-
-    float total2 = incomeCalculate(2, 0); // 假设从第1行开始，并且计数器初始化为0
-    cout << "Total income: " << total2 << endl; // 输出总收入
-
-    balance_change(2);
 }

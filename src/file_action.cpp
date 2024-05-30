@@ -5,6 +5,7 @@
 #include "data_define.h"
 #include "file_action.h"
 #include <OpenXLSX.hpp>
+#include "record_manage.h"
 #include <vector>
 #include <string>
 
@@ -26,7 +27,7 @@ void readFromFile1(readpersonal &pe) {
     pe.age = wks.cell("C2").value().get<int>();
     pe.add = wks.cell("D2").value().get<std::string>();
     pe.tel = wks.cell("E2").value().get<std::string>();
-    pe.yue = wks.cell("F2").value().get<float>();
+    pe.yue = wks.cell("F2").value().get<double>();
 
     doc.close();
 }
@@ -37,14 +38,14 @@ void readFromFile2(int row, readrecord &re) {
     auto wks = doc.workbook().worksheet("Records");
 
 
-        re.year = wks.cell(row, 1).value().get<int>();
-        re.month = wks.cell(row, 2).value().get<int>();
-        re.day = wks.cell(row, 3).value().get<int>();
-        re.shouzhi = wks.cell(row, 4).value().get<std::string>();
-        re.money = wks.cell(row, 5).value().get<float>();
-        re.reason = wks.cell(row, 6).value().get<std::string>();
+    re.year = wks.cell(row, 1).value().get<int>();
+    re.month = wks.cell(row, 2).value().get<int>();
+    re.day = wks.cell(row, 3).value().get<int>();
+    re.shouzhi = wks.cell(row, 4).value().get<std::string>();
+    re.money = wks.cell(row, 5).value().get<double>();
+    re.reason = wks.cell(row, 6).value().get<std::string>();
 
-        doc.close();
+    doc.close();
 
 }
 
@@ -80,20 +81,26 @@ void writeToFile2(const vector<record> &re) {
     doc.open(FILENAME2);
     auto wks = doc.workbook().worksheet("Records");
 
-    wks.cell("A1").value() = "年";
-    wks.cell("B1").value() = "月";
-    wks.cell("C1").value() = "日";
-    wks.cell("D1").value() = "收支";
-    wks.cell("E1").value() = "数额";
-    wks.cell("F1").value() = "原因";
+    int startRow = getLastRecordRow() + 1;  // 获取已有记录的行数加一，从下一行开始写入
+
+    // 若是首次写入数据，初始化列标题
+    if (startRow == 2) {  // 假设第一行是列标题
+        wks.cell("A1").value() = "年";
+        wks.cell("B1").value() = "月";
+        wks.cell("C1").value() = "日";
+        wks.cell("D1").value() = "收支";
+        wks.cell("E1").value() = "数额";
+        wks.cell("F1").value() = "原因";
+    }
 
     for (size_t i = 0; i < re.size(); ++i) {
-        wks.cell(i + 2, 1).value() = re[i].year;
-        wks.cell(i + 2, 2).value() = re[i].month;
-        wks.cell(i + 2, 3).value() = re[i].day;
-        wks.cell(i + 2, 4).value() = std::string(1, re[i].shouzhi);  // 确保类型匹配
-        wks.cell(i + 2, 5).value() = re[i].money;
-        wks.cell(i + 2, 6).value() = re[i].reason;
+        int rowIndex = startRow + i;  // 从startRow开始写入
+        wks.cell(rowIndex, 1).value() = re[i].year;
+        wks.cell(rowIndex, 2).value() = re[i].month;
+        wks.cell(rowIndex, 3).value() = re[i].day;
+        wks.cell(rowIndex, 4).value() = std::string(1, re[i].shouzhi);  // 确保类型匹配
+        wks.cell(rowIndex, 5).value() = re[i].money;
+        wks.cell(rowIndex, 6).value() = re[i].reason;
     }
 
     doc.save();
@@ -117,7 +124,7 @@ void printPersonal(){
     std::cout << "Age: " << pe_read.age << "   ";
     std::cout << "Address: " << pe_read.add << "   ";
     std::cout << "Telephone: " << pe_read.tel << "   ";
-    std::cout << "Balance: " << pe_read.yue << "   ";
+    std::cout << "Balance: " << pe_read.yue << std::endl;
 
 }
 
@@ -128,7 +135,8 @@ void printRecord(int row,int count){
     doc.open(FILENAME2);
     auto wks = doc.workbook().worksheet("Records");
 
-
+    printf("*******************************收支清单*************************************");
+    std::cout << "\n                             Records Data :          " << std::endl;
     while (count < MAX_RECORDS) {
         auto cell = wks.cell(row, 1);
         if (cell.value().type() == XLValueType::Integer) {
@@ -139,13 +147,12 @@ void printRecord(int row,int count){
                 row++;
                 count++;
 
-                std::cout << "\n                             Records Data :          " << std::endl;
                 std::cout << "year " << re_read.year << "    ";
                 std::cout << "month " << re_read.month << "    ";
                 std::cout << "day " << re_read.day << "   ";
                 std::cout << "shouzhi " << re_read.shouzhi << "   ";
                 std::cout << "money " << re_read.money << "   ";
-                std::cout << "reason " << re_read.reason << "   ";
+                std::cout << "reason " << re_read.reason << std::endl;
             } else {
                 break; // Stop if the year value is 0 (or any other sentinel value indicating end of data)
             }
@@ -154,4 +161,6 @@ void printRecord(int row,int count){
         }
     }
 }
+// Prototype the functions used
+
 

@@ -13,11 +13,16 @@ add_subdirectory(OpenXLSX)
 add_executable(SalaryManageSystem
 #        src/SalaryManageSystemNew.cpp
 #        src/file_action.cpp
-#        src/typecheck.h
 #        src/data_define.h
 #        src/file_action.h
-        src/balance_calculate.cpp
-        src/balance_calculate.h
+#        src/balance_calculate.cpp
+#        src/balance_calculate.h
+#        src/file_action.cpp
+#        src/record_manage.cpp
+#        src/record_manage.h
+        src/test.cpp
+        src/record_manage.cpp
+        #        src/typecheck.h
 #        src/celltypecheck.cpp
 )
 
