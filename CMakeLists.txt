@@ -21,7 +21,7 @@ add_executable(SalaryManageSystem
 #        src/record_manage.cpp
 #        src/record_manage.h
         src/test.cpp
-        src/record_manage.cpp
+#        src/record_manage.cpp
         #        src/typecheck.h
 #        src/celltypecheck.cpp
 )

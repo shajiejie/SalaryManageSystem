@@ -365,50 +365,262 @@ void balance_change(int row) {
     docPersonal.close();  // 关闭文件
 }
 
+int getLastRecordRow() {
+    OpenXLSX::XLDocument doc;
+    doc.open(FILENAME2);
+    auto wks = doc.workbook().worksheet("Records");
 
+    int lastRow = 1; // 初始化为1，假设至少有标题行
+    for (int i = 2; i < MAX_RECORDS + 2; i++) { // 假设最多有MAX_RECORDS条记录，从第2行开始检查
+        auto cell = wks.cell(i, 1); // 假设年份在第一列
+        if (cell.value().type() != OpenXLSX::XLValueType::Empty && cell.value().type() == OpenXLSX::XLValueType::Integer) {
+            lastRow = i; // 更新最后一个有数据的行号
+        } else {
+            break; // 遇到空单元格或非整数值时停止
+        }
+    }
+
+    doc.close();
+    return lastRow;
+}
+
+void clearCells(int startRow, int endRow, int startCol, int endCol) {
+    OpenXLSX::XLDocument doc;
+    try {
+        doc.open(FILENAME2);
+        auto wks = doc.workbook().worksheet("Records");
+        for (int row = startRow; row <= endRow; row++) {
+            for (int col = startCol; col <= endCol; col++) {
+                wks.cell(row, col).value() = "";
+            }
+        }
+        doc.save();
+        doc.close();
+    } catch (const std::exception& e) {
+        std::cerr << "An error occurred: " << e.what() << std::endl;
+    }
+}
+
+//读取全部数据
+std::vector<readrecord> readAllRecords() {
+    OpenXLSX::XLDocument doc;
+    doc.open(FILENAME2);
+    auto wks = doc.workbook().worksheet("Records");
+
+    std::vector<readrecord> allrecords;
+    int row = 2;  // 假设第一行是标题行
+    while (wks.cell(row, 1).value().type() != OpenXLSX::XLValueType::Empty) {
+        readrecord re;
+        re.year = wks.cell(row, 1).value().get<int>();
+        re.month = wks.cell(row, 2).value().get<int>();
+        re.day = wks.cell(row, 3).value().get<int>();
+        re.shouzhi = wks.cell(row, 4).value().get<std::string>();
+        re.money = wks.cell(row, 5).value().get<double>();
+        re.reason = wks.cell(row, 6).value().get<std::string>();
+        allrecords.push_back(re);
+        row++;
+    }
+
+    doc.close();
+    return allrecords;
+}
+
+//读取被删除行后的全部数据
+std::vector<readrecord> readPartRecords(int deleterow) {
+    OpenXLSX::XLDocument doc;
+    doc.open(FILENAME2);
+    auto wks = doc.workbook().worksheet("Records");
+
+    std::vector<readrecord> partrecords;
+    int partrow = deleterow + 2;
+    int lastRow = getLastRecordRow();
+    while (wks.cell(partrow , 1).value().type() != OpenXLSX::XLValueType::Empty && partrow <= lastRow ) {
+        readrecord re;
+        re.year = wks.cell(partrow , 1).value().get<int>();
+        re.month = wks.cell(partrow , 2).value().get<int>();
+        re.day = wks.cell(partrow , 3).value().get<int>();
+        re.shouzhi = wks.cell(partrow , 4).value().get<std::string>();
+        re.money = wks.cell(partrow , 5).value().get<double>();
+        re.reason = wks.cell(partrow , 6).value().get<std::string>();
+        partrecords.push_back(re);
+        partrow ++;
+    }
+
+    doc.close();
+    return partrecords;
+}
+
+void deleteAndRewriteRecords(int recordToDelete) {
+
+    // 重新写入剩余的记录
+    OpenXLSX::XLDocument doc;
+    doc.open(FILENAME2);
+    auto wks = doc.workbook().worksheet("Records");
+
+    auto partrecords = readPartRecords(recordToDelete);
+
+    if (recordToDelete < 1 || recordToDelete >= partrecords.size()) {
+        std::cerr << "Invalid record number to delete. Valid range is 1 to " << partrecords.size() - 1 << std::endl;
+        return;
+    }
+
+    // 清空可能包含过时数据的现有单元格
+    int lastRow = getLastRecordRow();
+
+    clearCells( recordToDelete + 1, lastRow, 1, 6);
+
+    // 重写标题行
+    wks.cell("A1").value() = "年";
+    wks.cell("B1").value() = "月";
+    wks.cell("C1").value() = "日";
+    wks.cell("D1").value() = "收支";
+    wks.cell("E1").value() = "数额";
+    wks.cell("F1").value() = "原因";
+
+    // 重新写入数据
+    int rowIndex = recordToDelete + 1;
+    for (const auto &re : partrecords) {
+        wks.cell(rowIndex, 1).value() = re.year;
+        wks.cell(rowIndex, 2).value() = re.month;
+        wks.cell(rowIndex, 3).value() = re.day;
+        wks.cell(rowIndex, 4).value() = re.shouzhi;
+        wks.cell(rowIndex, 5).value() = re.money;
+        wks.cell(rowIndex, 6).value() = re.reason;
+        rowIndex++;
+    }
+
+    doc.save();
+    doc.close();
+}
+
+void record_change(int recordIndex) {
+    OpenXLSX::XLDocument doc;
+    doc.open(FILENAME2);
+    auto wks = doc.workbook().worksheet("Records");
+
+    if (recordIndex < 1 || recordIndex > getLastRecordRow() - 1) {
+        std::cerr << "Record index out of range." << std::endl;
+        doc.close();
+        return;
+    }
+
+    // 获取用户输入新记录
+    record rec;
+    printf("年\n");
+    scanf("%d", &rec.year);
+    printf("月\n");
+    scanf("%d", &rec.month);
+    printf("日\n");
+    scanf("%d", &rec.day);
+    printf("收入或者支出(收入为+,支出为-)\n");
+    scanf(" %c", &rec.shouzhi);  // 直接使用空格处理前一个输入的换行符
+    printf("收入或者支出的数额\n");
+    scanf("%lf", &rec.money);
+    printf("请输入原因(只限拼音或者英文)\n");
+    scanf("%s", rec.reason);
+
+
+    // 写入新记录到指定行
+    int row = recordIndex + 1; // 标题行是第1行
+    wks.cell(row, 1).value() = rec.year;;
+    wks.cell(row, 2).value() = rec.month;
+    wks.cell(row, 3).value() = rec.day;
+    wks.cell(row, 4).value() = rec.shouzhi;
+    wks.cell(row, 5).value() = rec.money;
+    wks.cell(row, 6).value() = rec.reason;
+
+    doc.save();
+    doc.close();
+}
 
 int main() {
-    int row = 2;
-    int count = 0;
+//    int row = 2;
+//    int count = 0;
+//
+//    personal pe;
+//    std::vector<record> records;
+//
+//    readpersonal pe_read;
+//    readrecord re_read;
+//
+//
+//    //Function to add personal details
+//    add_personal(pe);
+//
+//    // Function to add financial records
+//    add_record(records);
+//
+//    // Write personal information to a file
+//    writeToFile1(pe);
+//
+//    // Write financial records to a file
+//    writeToFile2(records);
+//
+//    readFromFile1(pe_read);
+//
+//    readFromFile2(row,re_read);
+//
+//    printPersonal();
+//
+//    printRecord(row,count);
+//
+//    double disbursetotal = disburseCalculate(row, 0);
+//    double incometotal = incomeCalculate(row, 0);
+//
+//    cout << "Total income: " << disbursetotal << endl; // 输出总支出
+//    cout << "Total income: " << incometotal << endl; // 输出总收入
+//
+//    balance_change(row);
+//
+//    readFromFile1(pe_read);
+//    printPersonal();
 
-    personal pe;
-    std::vector<record> records;
+      int lastnumber  = getLastRecordRow();
+      cout << "lastnumber: " << lastnumber << endl;
 
-    readpersonal pe_read;
-    readrecord re_read;
+      deleteAndRewriteRecords(2);
+
+    auto allrecords = readAllRecords();  // 获取所有记录
+
+    // 打印每条记录
+    for (const auto& record : allrecords) {
+        std::cout << "Year: " << record.year
+                  << ", Month: " << record.month
+                  << ", Day: " << record.day
+                  << ", ShouZhi: " << record.shouzhi
+                  << std::fixed << std::setprecision(2)
+                  << ", Money: " << record.money
+                  << ", Reason: " << record.reason << std::endl;
+    }
+    std::cout << "Testing completed.\n";
+
+//    auto partrecords = readPartRecords(2);  // 获取所有记录
+//
+//     //打印部分记录
+//    for (const auto& record : partrecords) {
+//        std::cout << "Year: " << record.year
+//                  << ", Month: " << record.month
+//                  << ", Day: " << record.day
+//                  << ", ShouZhi: " << record.shouzhi
+//                  << std::fixed << std::setprecision(2)
+//                  << ", Money: " << record.money
+//                  << ", Reason: " << record.reason << std::endl;
+//    }
+
+//    clearCells(3,8,1,6);
 
 
-    //Function to add personal details
-    add_personal(pe);
 
-    // Function to add financial records
-    add_record(records);
 
-    // Write personal information to a file
-    writeToFile1(pe);
+//    std::cout << "Deleting and rewriting records...\n";
+//    deleteAndRewriteRecords(2); // 假设我们要删除第3条记录
 
-    // Write financial records to a file
-    writeToFile2(records);
+    // 测试修改记录的功能
+//    std::cout << "Changing a record...\n";
+//    record_change(3); // 假设我们要修改第3条记录
 
-    readFromFile1(pe_read);
-
-    readFromFile2(row,re_read);
-
-    printPersonal();
-
-    printRecord(row,count);
-
-    double disbursetotal = disburseCalculate(row, 0);
-    double incometotal = incomeCalculate(row, 0);
-
-    cout << "Total income: " << disbursetotal << endl; // 输出总支出
-    cout << "Total income: " << incometotal << endl; // 输出总收入
-
-    balance_change(row);
-
-    readFromFile1(pe_read);
-    printPersonal();
-
+    // 可以添加更多的测试功能调用
+    std::cout << "Testing completed.\n";
 
 
     std::cout << "Data entry and saving complete. Check the Excel files for output." << std::endl;

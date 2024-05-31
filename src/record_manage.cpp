@@ -31,13 +31,18 @@ int getLastRecordRow() {
 
 void clearCells(int startRow, int endRow, int startCol, int endCol) {
     OpenXLSX::XLDocument doc;
-    doc.open(FILENAME2);
-    auto wks = doc.workbook().worksheet("Records");
-    for (int row = startRow; row <= endRow; ++row) {
-        for (int col = startCol; col <= endCol; ++col) {
-            // 清空单元格
-            wks.cell(OpenXLSX::XLCellReference(row, col)).value() = "";
+    try {
+        doc.open(FILENAME2);
+        auto wks = doc.workbook().worksheet("Records");
+        for (int row = startRow; row <= endRow; ++row) {
+            for (int col = startCol; col <= endCol; ++col) {
+                wks.cell(row, col).value() = "";
+            }
         }
+        doc.save();
+        doc.close();
+    } catch (const std::exception& e) {
+        std::cerr << "An error occurred: " << e.what() << std::endl;
     }
 }
 
@@ -71,15 +76,13 @@ void deleteAndRewriteRecords(int recordToDelete) {
     doc.open(FILENAME2);
     auto wks = doc.workbook().worksheet("Records");
 
-    auto records = readAllRecords();
+    auto records = readPartRecords(2);
 
     if (recordToDelete < 1 || recordToDelete >= records.size()) {
         std::cerr << "Invalid record number to delete. Valid range is 1 to " << records.size() - 1 << std::endl;
         return;
     }
 
-    // 删除指定记录及其后续记录
-    records.erase(records.begin() + recordToDelete - 1, records.end());
 
     // 清空可能包含过时数据的现有单元格
     int lastRow = getLastRecordRow();

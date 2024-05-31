@@ -11,6 +11,8 @@ void clearCells(int startRow, int endRow, int startCol, int endCol);
 
 std::vector<readrecord> readAllRecords();
 
+std::vector<readrecord> readPartRecords(int deleterow);
+
 void deleteAndRewriteRecords(int recordToDelete);
 
 void record_change();
