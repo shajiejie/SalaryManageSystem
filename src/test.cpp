@@ -450,43 +450,22 @@ std::vector<readrecord> readPartRecords(int deleterow) {
     return partrecords;
 }
 
-void deleteAndRewriteRecords(int recordToDelete) {
+void deleteAndRewriteRecords(int recordToDelete,std::vector<readrecord> partrecords) {
 
     // 重新写入剩余的记录
     OpenXLSX::XLDocument doc;
     doc.open(FILENAME2);
     auto wks = doc.workbook().worksheet("Records");
 
-    auto partrecords = readPartRecords(recordToDelete);
-
-    if (recordToDelete < 1 || recordToDelete >= partrecords.size()) {
-        std::cerr << "Invalid record number to delete. Valid range is 1 to " << partrecords.size() - 1 << std::endl;
-        return;
-    }
-
-    // 清空可能包含过时数据的现有单元格
-    int lastRow = getLastRecordRow();
-
-    clearCells( recordToDelete + 1, lastRow, 1, 6);
-
-    // 重写标题行
-    wks.cell("A1").value() = "年";
-    wks.cell("B1").value() = "月";
-    wks.cell("C1").value() = "日";
-    wks.cell("D1").value() = "收支";
-    wks.cell("E1").value() = "数额";
-    wks.cell("F1").value() = "原因";
-
     // 重新写入数据
-    int rowIndex = recordToDelete + 1;
-    for (const auto &re : partrecords) {
-        wks.cell(rowIndex, 1).value() = re.year;
-        wks.cell(rowIndex, 2).value() = re.month;
-        wks.cell(rowIndex, 3).value() = re.day;
-        wks.cell(rowIndex, 4).value() = re.shouzhi;
-        wks.cell(rowIndex, 5).value() = re.money;
-        wks.cell(rowIndex, 6).value() = re.reason;
-        rowIndex++;
+    for (size_t i = 0; i < partrecords.size(); ++i) {
+        int rowIndex = recordToDelete + i + 1;  // 每次循环增加
+        wks.cell(rowIndex, 1).value() = partrecords[i].year;
+        wks.cell(rowIndex, 2).value() = partrecords[i].month;
+        wks.cell(rowIndex, 3).value() = partrecords[i].day;
+        wks.cell(rowIndex, 4).value() = partrecords[i].shouzhi;  // 确保类型匹配
+        wks.cell(rowIndex, 5).value() = partrecords[i].money;
+        wks.cell(rowIndex, 6).value() = partrecords[i].reason;
     }
 
     doc.save();
@@ -575,26 +554,25 @@ int main() {
 //    readFromFile1(pe_read);
 //    printPersonal();
 
-      int lastnumber  = getLastRecordRow();
-      cout << "lastnumber: " << lastnumber << endl;
 
-      deleteAndRewriteRecords(2);
 
-    auto allrecords = readAllRecords();  // 获取所有记录
+//    deleteAndRewriteRecords(11);
+//
+//    auto allrecords = readAllRecords();  // 获取所有记录
+//
+//    // 打印每条记录
+//    for (const auto& record : allrecords) {
+//        std::cout << "Year: " << record.year
+//                  << ", Month: " << record.month
+//                  << ", Day: " << record.day
+//                  << ", ShouZhi: " << record.shouzhi
+//                  << std::fixed << std::setprecision(2)
+//                  << ", Money: " << record.money
+//                  << ", Reason: " << record.reason << std::endl;
+//    }
+//    std::cout << "Testing completed.\n";
 
-    // 打印每条记录
-    for (const auto& record : allrecords) {
-        std::cout << "Year: " << record.year
-                  << ", Month: " << record.month
-                  << ", Day: " << record.day
-                  << ", ShouZhi: " << record.shouzhi
-                  << std::fixed << std::setprecision(2)
-                  << ", Money: " << record.money
-                  << ", Reason: " << record.reason << std::endl;
-    }
-    std::cout << "Testing completed.\n";
-
-//    auto partrecords = readPartRecords(2);  // 获取所有记录
+//    auto partrecords = readPartRecords(11);  // 获取所有记录
 //
 //     //打印部分记录
 //    for (const auto& record : partrecords) {
@@ -607,10 +585,11 @@ int main() {
 //                  << ", Reason: " << record.reason << std::endl;
 //    }
 
-//    clearCells(3,8,1,6);
-
-
-
+//    clearCells(12,15,1,6);
+//
+//
+//    int lastnumber  = getLastRecordRow();
+//    cout << "lastnumber: " << lastnumber << endl;
 
 //    std::cout << "Deleting and rewriting records...\n";
 //    deleteAndRewriteRecords(2); // 假设我们要删除第3条记录
@@ -620,6 +599,36 @@ int main() {
 //    record_change(3); // 假设我们要修改第3条记录
 
     // 可以添加更多的测试功能调用
+    int recordToDelete = 11;
+    auto partrecords = readPartRecords(recordToDelete);
+        for (const auto& record : partrecords) {
+        std::cout << "Year: " << record.year
+                  << ", Month: " << record.month
+                  << ", Day: " << record.day
+                  << ", ShouZhi: " << record.shouzhi
+                  << std::fixed << std::setprecision(2)
+                  << ", Money: " << record.money
+                  << ", Reason: " << record.reason << std::endl;
+    }
+    std::cout << "Testing completed.\n";
+    auto allrecords = readAllRecords();
+    for (const auto& record : allrecords) {
+        std::cout << "Year: " << record.year
+                  << ", Month: " << record.month
+                  << ", Day: " << record.day
+                  << ", ShouZhi: " << record.shouzhi
+                  << std::fixed << std::setprecision(2)
+                  << ", Money: " << record.money
+                  << ", Reason: " << record.reason << std::endl;
+    }
+    // 清空可能包含过时数据的现有单元格
+    int lastRow = getLastRecordRow();
+    cout << "lastnumber: " << lastRow << endl;
+
+    clearCells( recordToDelete + 1, lastRow, 1, 6);
+
+    deleteAndRewriteRecords(recordToDelete,partrecords);
+
     std::cout << "Testing completed.\n";
 
 
